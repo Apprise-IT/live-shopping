@@ -26,16 +26,16 @@
 # DB_USER: livoadmin
 # DB_PASSWORD: LIV0@#aeoer@
 
-define('DB_NAME', 'liveshopping');
-define('DB_USER', 'livoadmin');
-define('DB_PASSWORD', 'LIV0@#aeoer@');
-define('DB_HOST', '178.128.112.23:3306');
+// define('DB_NAME', 'liveshopping');
+// define('DB_USER', 'livoadmin');
+// define('DB_PASSWORD', 'LIV0@#aeoer@');
+// define('DB_HOST', '178.128.112.23:3306');
 
 /** The name of the database for WordPress */
-// define( 'DB_NAME', 'liveshopping' );
-// define( 'DB_USER', 'root' );
-// define( 'DB_PASSWORD', '' );
-// define( 'DB_HOST', 'localhost' );
+define( 'DB_NAME', 'liveshopping' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
+define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', '' );
 
