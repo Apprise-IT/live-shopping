@@ -1,222 +1,29 @@
 <?php
 /**
- * Plugin Name: Ecommerce Master API
- * Description: Complete WooCommerce REST API enhancement with custom endpoints, webhook support, batch operations, and performance optimizations for headless e-commerce and mobile applications.
- * Version: 2.1.0
- * Author: Md. Abdullah Al Ahsan
- * License: GPL v2 or later
- * Text Domain: ecommerce-master-api
- * Domain Path: /languages
- * WC requires at least: 5.0.0
- * WC tested up to: 8.0.0
- * Requires PHP: 7.4
+ * Admin Page for Ecommerce Master API
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-// Check if WooCommerce is active
-if (!in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
-    add_action('admin_notices', 'ema_woocommerce_missing_notice');
-    return;
-}
-
-function ema_woocommerce_missing_notice() {
-    echo '<div class="error"><p>Ecommerce Master API requires WooCommerce to be installed and active.</p></div>';
-}
-
-// Define constants
-define('EMA_VERSION', '2.1.0');
-define('EMA_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('EMA_PLUGIN_PATH', plugin_dir_path(__FILE__));
-
-class Ecommerce_Master_API {
+class Ecommerce_API_Admin_Page {
     
-    private $namespace = 'ecommerce-api/v1';
-    private $version = EMA_VERSION;
+    private $namespace;
+    private $version;
     
-    public function __construct() {
-        add_action('init', array($this, 'check_compatibility'));
-        add_action('rest_api_init', array($this, 'register_routes'));
+    public function __construct($namespace, $version) {
+        $this->namespace = $namespace;
+        $this->version = $version;
+        
         add_action('admin_menu', array($this, 'add_admin_menu'));
         add_action('admin_init', array($this, 'register_settings'));
-        add_action('admin_notices', array($this, 'show_admin_notices'));
-        add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
         add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_scripts'));
-        
-        // HPOS Compatibility
-        add_action('before_woocommerce_init', array($this, 'declare_hpos_compatibility'));
-        
-        // Block compatibility
-        add_filter('woocommerce_feature_product_block_editor_enabled', array($this, 'handle_block_compatibility'));
-        
-        // Load required files
-        $this->load_dependencies();
-        
-        // Initialize session handling
-        $this->init_session_management();
         
         // AJAX handlers
         add_action('wp_ajax_ema_health_check', array($this, 'ajax_health_check'));
         add_action('wp_ajax_ema_clear_cache', array($this, 'ajax_clear_cache'));
         add_action('wp_ajax_ema_test_endpoint', array($this, 'ajax_test_endpoint'));
-    }
-
-    public function init_session_management() {
-        // Only start session for non-REST API requests
-        if (defined('REST_REQUEST') && REST_REQUEST) {
-            return; // Don't start sessions for REST API
-        }
-        
-        if (!session_id() && !headers_sent()) {
-            session_start();
-        }
-        
-        // Close session early for REST API and performance
-        add_action('rest_api_init', function() {
-            if (session_id()) {
-                session_write_close();
-            }
-        });
-        
-        // Close session before any HTTP requests
-        add_action('http_api_curl', function() {
-            if (session_id()) {
-                session_write_close();
-            }
-        });
-        
-        // Close session before WordPress makes internal requests
-        add_action('wp_loaded', function() {
-            if (defined('REST_REQUEST') && REST_REQUEST && session_id()) {
-                if (session_id()) {
-                    session_write_close();
-                }
-            }
-        });
-    }
-
-    public function enqueue_scripts() {
-        // Frontend scripts if needed
-    }
-
-    public function enqueue_admin_scripts($hook) {
-        if (strpos($hook, 'ecommerce-api-manager') !== false) {
-            wp_enqueue_script('ema-admin-js', EMA_PLUGIN_URL . 'assets/js/admin.js', array('jquery'), EMA_VERSION, true);
-            wp_enqueue_style('ema-admin-css', EMA_PLUGIN_URL . 'assets/css/admin.css', array(), EMA_VERSION);
-            
-            // Localize script for AJAX
-            wp_localize_script('ema-admin-js', 'ema_ajax', array(
-                'ajax_url' => admin_url('admin-ajax.php'),
-                'api_url' => get_rest_url() . $this->namespace,
-                'nonce' => wp_create_nonce('ema_admin_nonce'),
-                'changelog_url' => EMA_PLUGIN_URL . 'documentation/changelog.md'
-            ));
-        }
-    }
-
-    public static function send_success($data = null, $message = '', $status = 200) {
-        return new WP_REST_Response(
-            array(
-                'success' => true,
-                'message' => $message,
-                'data'    => $data,
-                'timestamp' => current_time('timestamp')
-            ),
-            $status
-        );
-    }
-
-    public static function send_error($message, $status = 400, $data = null) {
-        return new WP_REST_Response(
-            array(
-                'success' => false,
-                'message' => $message,
-                'data'    => $data,
-                'timestamp' => current_time('timestamp')
-            ),
-            $status
-        );
-    }
-   
-    public function load_dependencies() {
-        $includes_path = EMA_PLUGIN_PATH . 'includes/';
-        
-        require_once $includes_path . 'class-cache-manager.php';
-        require_once $includes_path . 'class-auth-api.php';
-        require_once $includes_path . 'class-products-api.php';
-        require_once $includes_path . 'class-orders-api.php';
-        require_once $includes_path . 'class-cart-api.php';
-        require_once $includes_path . 'class-utilities.php';
-        require_once $includes_path . 'class-compatibility.php';
-        require_once $includes_path . 'class-address-api.php';
-        require_once $includes_path . 'class-reviews-api.php';
-        require_once $includes_path . 'class-wishlist-api.php';
-        
-        // Load admin page class
-        require_once EMA_PLUGIN_PATH . 'admin-page.php';
-    }
-    
-    public function check_compatibility() {
-        $compatibility = new Compatibility();
-        $compatibility->check_and_fix_issues();
-    }
-    
-    public function declare_hpos_compatibility() {
-        if (class_exists('\Automattic\WooCommerce\Utilities\FeaturesUtil')) {
-            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', __FILE__, true);
-        }
-    }
-    
-    public function handle_block_compatibility($enabled) {
-        return $enabled;
-    }
-    
-    public function register_routes() {
-        // Initialize API classes with cache manager
-        $cache_manager = new Cache_Manager();
-        $auth_api = new Auth_API($cache_manager);
-        $wishlist_api = new Wishlist_API($cache_manager);
-        $reviews_api = new Reviews_API($cache_manager);
-        $address_api = new Address_API($cache_manager);
-        $products_api = new Products_API($cache_manager);
-        $orders_api = new Orders_API($cache_manager);
-        $cart_api = new Cart_API($cache_manager);
-        
-        // Register routes from each class
-        $auth_api->register_routes();
-        $wishlist_api->register_routes();
-        $reviews_api->register_routes();
-        $address_api->register_routes();
-        $products_api->register_routes();
-        $orders_api->register_routes();
-        $cart_api->register_routes();
-        
-        // System endpoints
-        register_rest_route($this->namespace, '/system/status', array(
-            'methods' => 'GET',
-            'callback' => array($this, 'get_system_status'),
-            'permission_callback' => array($this, 'check_admin_permissions')
-        ));
-        
-        register_rest_route($this->namespace, '/system/compatibility', array(
-            'methods' => 'GET',
-            'callback' => array($this, 'get_compatibility_status'),
-            'permission_callback' => '__return_true'
-        ));
-        
-        register_rest_route($this->namespace, '/system/health', array(
-            'methods' => 'GET',
-            'callback' => array($this, 'get_health_check'),
-            'permission_callback' => '__return_true'
-        ));
-
-        register_rest_route($this->namespace, '/system/cache/clear', array(
-            'methods' => 'POST',
-            'callback' => array($this, 'clear_cache'),
-            'permission_callback' => array($this, 'check_admin_permissions')
-        ));
     }
     
     public function add_admin_menu() {
@@ -267,6 +74,33 @@ class Ecommerce_Master_API {
         register_setting('ema_settings', 'ema_cache_ttl');
         register_setting('ema_settings', 'ema_token_expiry');
         register_setting('ema_settings', 'ema_max_tokens');
+    }
+    
+    public function enqueue_admin_scripts($hook) {
+        if (strpos($hook, 'ecommerce-api-manager') !== false) {
+            wp_enqueue_style(
+                'ecommerce-api-admin-css',
+                EMA_PLUGIN_URL . 'assets/css/admin.css',
+                array(),
+                EMA_VERSION
+            );
+            
+            wp_enqueue_script(
+                'ecommerce-api-admin-js',
+                EMA_PLUGIN_URL . 'assets/js/admin.js',
+                array('jquery'),
+                EMA_VERSION,
+                true
+            );
+            
+            // Localize script for AJAX
+            wp_localize_script('ecommerce-api-admin-js', 'ema_ajax', array(
+                'ajax_url' => admin_url('admin-ajax.php'),
+                'api_url' => get_rest_url() . $this->namespace,
+                'nonce' => wp_create_nonce('ema_admin_nonce'),
+                'changelog_url' => EMA_PLUGIN_URL . 'documentation/changelog.md'
+            ));
+        }
     }
     
     public function admin_page() {
@@ -758,99 +592,6 @@ class Ecommerce_Master_API {
         <?php
     }
     
-    public function show_admin_notices() {
-        $compatibility = new Compatibility();
-        $issues = $compatibility->get_critical_issues();
-        
-        if (!empty($issues)) {
-            echo '<div class="notice notice-warning">';
-            echo '<p><strong>Ecommerce Master API Compatibility Issues:</strong></p>';
-            echo '<ul>';
-            foreach ($issues as $issue) {
-                echo '<li>' . esc_html($issue) . '</li>';
-            }
-            echo '</ul>';
-            echo '<p><a href="' . esc_url(admin_url('admin.php?page=ecommerce-api-manager-compatibility')) . '" class="button">View Details</a></p>';
-            echo '</div>';
-        }
-    }
-    
-    // AJAX Handlers
-    public function ajax_health_check() {
-        check_ajax_referer('ema_admin_nonce', 'nonce');
-        
-        if (!current_user_can('manage_options')) {
-            wp_die('Unauthorized');
-        }
-        
-        $compatibility = new Compatibility();
-        $health = $compatibility->run_health_check();
-        
-        wp_send_json_success(array(
-            'message' => $health['message'],
-            'details' => $health
-        ));
-    }
-    
-    public function ajax_clear_cache() {
-        check_ajax_referer('ema_admin_nonce', 'nonce');
-        
-        if (!current_user_can('manage_options')) {
-            wp_die('Unauthorized');
-        }
-        
-        $cache_type = $_POST['cache_type'] ?? 'all';
-        $cache_manager = new Cache_Manager();
-        
-        switch ($cache_type) {
-            case 'products':
-                $cache_manager->clear_product_cache();
-                break;
-            case 'orders':
-                $cache_manager->clear_order_cache();
-                break;
-            case 'reviews':
-                $cache_manager->clear_review_cache();
-                break;
-            case 'all':
-            default:
-                $cache_manager->clear_all();
-                break;
-        }
-        
-        wp_send_json_success('Cache cleared successfully');
-    }
-    
-    public function ajax_test_endpoint() {
-        check_ajax_referer('ema_admin_nonce', 'nonce');
-        
-        if (!current_user_can('manage_options')) {
-            wp_die('Unauthorized');
-        }
-        
-        $endpoint = $_POST['endpoint'] ?? '/system/health';
-        $method = $_POST['method'] ?? 'GET';
-        
-        $url = get_rest_url() . $this->namespace . $endpoint;
-        
-        $response = wp_remote_request($url, array(
-            'method' => $method,
-            'timeout' => 30,
-        ));
-        
-        if (is_wp_error($response)) {
-            wp_send_json_error('Error testing endpoint: ' . $response->get_error_message());
-        } else {
-            $body = wp_remote_retrieve_body($response);
-            $data = json_decode($body, true);
-            
-            wp_send_json_success(array(
-                'status_code' => wp_remote_retrieve_response_code($response),
-                'response' => $data
-            ));
-        }
-    }
-    
     // Helper methods
     private function get_settings() {
         $defaults = array(
@@ -944,111 +685,79 @@ class Ecommerce_Master_API {
         }
     }
     
-    // API Endpoint Methods
-    public function get_system_status($request) {
-        $compatibility = new Compatibility();
+    // AJAX Handlers
+    public function ajax_health_check() {
+        check_ajax_referer('ema_admin_nonce', 'nonce');
         
-        return rest_ensure_response(array(
-            'status' => 'success',
-            'data' => array(
-                'plugin_version' => $this->version,
-                'wordpress_version' => get_bloginfo('version'),
-                'php_version' => PHP_VERSION,
-                'compatibility' => $compatibility->get_compatibility_report()
-            )
-        ));
-    }
-    
-    public function get_compatibility_status($request) {
-        $compatibility = new Compatibility();
+        if (!current_user_can('manage_options')) {
+            wp_die('Unauthorized');
+        }
         
-        return rest_ensure_response(array(
-            'status' => 'success',
-            'data' => $compatibility->get_compatibility_report()
-        ));
-    }
-    
-    public function get_health_check($request) {
         $compatibility = new Compatibility();
         $health = $compatibility->run_health_check();
         
-        return rest_ensure_response(array(
-            'status' => $health['healthy'] ? 'healthy' : 'issues',
+        wp_send_json_success(array(
             'message' => $health['message'],
-            'data' => $health
+            'details' => $health
         ));
     }
     
-    public function clear_cache($request) {
+    public function ajax_clear_cache() {
+        check_ajax_referer('ema_admin_nonce', 'nonce');
+        
         if (!current_user_can('manage_options')) {
-            return new WP_Error('rest_forbidden', 'Insufficient permissions', array('status' => 403));
+            wp_die('Unauthorized');
         }
         
+        $cache_type = $_POST['cache_type'] ?? 'all';
         $cache_manager = new Cache_Manager();
-        $cache_manager->clear_all();
         
-        return rest_ensure_response(array(
-            'status' => 'success',
-            'message' => 'Cache cleared successfully'
-        ));
-    }
-    
-    public function check_admin_permissions($request) {
-        return current_user_can('manage_options');
-    }
-}
-
-// Initialize the plugin
-function initialize_ecommerce_master_api() {
-    new Ecommerce_Master_API();
-}
-add_action('plugins_loaded', 'initialize_ecommerce_master_api');
-
-// Activation hook
-register_activation_hook(__FILE__, 'ema_activate');
-function ema_activate() {
-    // Set default options
-    add_option('ema_enable_hpos', 1);
-    add_option('ema_enable_blocks', 1);
-    add_option('ema_api_rate_limit', 1000);
-    add_option('ema_enable_debug', 0);
-    add_option('ema_enable_caching', 1);
-    add_option('ema_cache_ttl', 3600);
-    add_option('ema_token_expiry', 30);
-    add_option('ema_max_tokens', 5);
-    
-    // Flush rewrite rules
-    flush_rewrite_rules();
-}
-
-// Deactivation hook
-register_deactivation_hook(__FILE__, 'ema_deactivate');
-function ema_deactivate() {
-    flush_rewrite_rules();
-}
-
-// Debug function to check if routes are registered
-function ema_debug_routes() {
-    if (isset($_GET['debug_ema_routes']) && current_user_can('manage_options')) {
-        $rest_server = rest_get_server();
-        $routes = $rest_server->get_routes();
-        
-        echo '<pre>';
-        foreach ($routes as $route => $handlers) {
-            if (strpos($route, 'ecommerce-api') !== false) {
-                echo "Route: " . $route . "\n";
-                foreach ($handlers as $handler) {
-                    echo "  Methods: " . implode(', ', $handler['methods']) . "\n";
-                    echo "  Callback: " . (is_array($handler['callback']) ? 
-                         get_class($handler['callback'][0]) . '->' . $handler['callback'][1] : 
-                         'function') . "\n";
-                    echo "\n";
-                }
-            }
+        switch ($cache_type) {
+            case 'products':
+                $cache_manager->clear_product_cache();
+                break;
+            case 'orders':
+                $cache_manager->clear_order_cache();
+                break;
+            case 'reviews':
+                $cache_manager->clear_review_cache();
+                break;
+            case 'all':
+            default:
+                $cache_manager->clear_all();
+                break;
         }
-        echo '</pre>';
-        exit;
+        
+        wp_send_json_success('Cache cleared successfully');
+    }
+    
+    public function ajax_test_endpoint() {
+        check_ajax_referer('ema_admin_nonce', 'nonce');
+        
+        if (!current_user_can('manage_options')) {
+            wp_die('Unauthorized');
+        }
+        
+        $endpoint = $_POST['endpoint'] ?? '/system/health';
+        $method = $_POST['method'] ?? 'GET';
+        
+        $url = get_rest_url() . $this->namespace . $endpoint;
+        
+        $response = wp_remote_request($url, array(
+            'method' => $method,
+            'timeout' => 30,
+        ));
+        
+        if (is_wp_error($response)) {
+            wp_send_json_error('Error testing endpoint: ' . $response->get_error_message());
+        } else {
+            $body = wp_remote_retrieve_body($response);
+            $data = json_decode($body, true);
+            
+            wp_send_json_success(array(
+                'status_code' => wp_remote_retrieve_response_code($response),
+                'response' => $data
+            ));
+        }
     }
 }
-add_action('init', 'ema_debug_routes');
-?>

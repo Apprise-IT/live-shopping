@@ -1,5 +1,3 @@
-[file name]: Documentation&Examples.txt
-[file content begin]
 ==================================================
 Ecommerce Master API - Complete Documentation
 Version: 2.1.0
@@ -1763,5 +1761,3 @@ VERSIONING
 SUPPORT
 =======
 For API support and documentation updates, contact your development team.
-
-Last Updated: 2024-12-31
