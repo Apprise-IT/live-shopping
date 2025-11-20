@@ -1,0 +1,15 @@
+2025-11-14T04:04:08+00:00 DEBUG #6952 - [New Request] GET /liveshopping/wp-admin/plugins.php
+2025-11-14T04:04:08+00:00 DEBUG #6952 - Webhook lock acquired for 'unregister'.
+2025-11-14T04:04:08+00:00 DEBUG #6952 - Webhook operation 'unregister' started.
+2025-11-14T04:04:09+00:00 DEBUG #6952 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-14T04:04:09+00:00 ERROR #6952 - Failed to delete webhooks: [Error] Not Found
+2025-11-14T04:04:09+00:00 INFO #6952 - Webhooks deleted.
+2025-11-14T04:04:09+00:00 DEBUG #6952 - Webhook lock released for 'unregister'.

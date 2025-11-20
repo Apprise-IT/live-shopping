@@ -1,0 +1,111 @@
+.yith_woocommerce_slider { 
+	width: 300px; 
+	float: left 
+}
+.yith_woocommerce_slider_value {
+	margin-top: -5px; 
+	margin-left: 10px; 
+	width: 50px; 
+	float: left; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes ul {
+	max-width: 400px;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes li {
+    margin-block: 10px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px dashed #ddd;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: grab;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes li label + div {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes li i {
+	font-size: 16px;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes li.fixed {
+	border-style: solid;
+	cursor: not-allowed;
+	background-color: #fafafa;
+}
+
+.yith-plugin-fw__panel__option--woocompare_attributes .attributes .ui-sortable-placeholder {
+    background: #f9f9f9;
+    border: 1px dashed #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    visibility: visible !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: -2px;
+}
+.yith-plugin-fw__panel__option--woocompare_attributes .yith-plugin-fw__panel__option__description {
+	display: none!important;
+}
+
+#s2id_yith_woocompare_excluded_category {
+    width: 100% !important;
+}
+
+/* SHORTCODE TAB */
+
+#yith_woocompare_panel_shortcodes h1 {
+	display: inline-block;
+}
+
+#yith_woocompare_panel_shortcodes h1 + .add {
+	display: inline-block;
+	vertical-align: top;
+	margin-inline: 15px;
+}
+
+#yith_woocompare_panel_shortcodes .empty-table {
+	padding: 100px 0;
+	text-align: center;
+}
+
+#yith_woocompare_panel_shortcodes .empty-table img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+#yith_woocompare_panel_shortcodes .empty-table p:first-of-type {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#yith_woocompare_panel_shortcodes .empty-table .yith-add-button {
+	margin-top: 70px;
+	padding: 7px 30px;
+}
+
+#add_comparison_table_modal .form-row:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#add_comparison_table_modal .form-row label {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#add_comparison_table_modal .form-row [type="radio"] + label {
+	font-weight: normal;
+}
+
+#add_comparison_table_modal .form-row .submit {
+	width: 100%;
+	padding: 5px 15px;
+}

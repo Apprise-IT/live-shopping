@@ -1,0 +1,31 @@
+
+20-11-2025 05:38:45 [localhost][info] Posts query: array (
+  'has_thumb' => false,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+20-11-2025 05:38:45 [localhost][info] Posts query: array (
+  'has_thumb' => true,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+-------------------------------
+20-11-2025 05:39:12 [localhost][info] START generate in mode:  generate
+20-11-2025 05:39:12 [localhost][info] Posts query: array (
+  'has_thumb' => '0',
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+20-11-2025 05:39:12 [localhost][info] Queried posts IDs:  
+-------------------------------
+20-11-2025 05:40:12 [localhost][warning] The post type (product) is not allowed for generation in settings
+-------------------------------

@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Compare\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"compare\n"
+"POT-Creation-Date: 2025-04-01 13:58:18+00:00\n"
+"PO-Revision-Date: 2018-11-28 16:33+0100\n"
+"Last-Translator: Jakub Novák <jakub.novak@hellephant.sk>\n"
+"Language-Team: Hellephant <jakub.novak@hellephant.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:28
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:75
+#: includes/class-yith-woocompare-helper.php:101
+#: includes/widgets/class-yith-woocompare-compare-widget.php:122
+#: includes/widgets/class-yith-woocompare-counter-widget.php:85
+#: widgets/class.yith-woocompare-widget.php:72
+msgid "Title"
+msgstr "Titulok"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:29
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:76
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:30
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:77
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:87
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:92
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:97
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:122
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:123
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:164
+msgid "You don't have any shortcodes yet."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:167
+msgid "But don't worry! You can create your first one here."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:169
+msgid "Create a shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:52
+#: includes/admin/class-yith-woocompare-admin.php:196
+msgid "Comparison tables"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:53
+#, fuzzy
+msgid "Comparison table"
+msgstr "Porovnať"
+
+#: includes/admin/class-yith-woocompare-admin.php:141
+msgid ""
+"It allows you to compare in a simple and efficient way products on sale in "
+"your shop and analyze their main features in a single table."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:191
+#, fuzzy
+msgid "General settings"
+msgstr "Všeobecné nastavenia"
+
+#: includes/admin/class-yith-woocompare-admin.php:193
+msgid "Set the general behavior of the plugin."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:198
+msgid "Configure the options for the comparison tables displayed in your shop."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:111
+#, fuzzy
+msgid "Added to compare"
+msgstr "Pridať do košíka"
+
+#: includes/class-yith-woocompare-frontend.php:121 templates/compare.php:57
+msgid "Product Comparison"
+msgstr "Porovnanie produktov"
+
+#: includes/class-yith-woocompare-frontend.php:124
+#: includes/class-yith-woocompare-frontend.php:335
+#: includes/class-yith-woocompare-install.php:84
+#: plugin-options/general-options.php:40 templates/yith-compare-widget.php:51
+#: widgets/class.yith-woocompare-widget.php:55
+msgid "Compare"
+msgstr "Porovnať"
+
+#: includes/class-yith-woocompare-helper.php:102
+msgid "Image"
+msgstr "Obrázok"
+
+#: includes/class-yith-woocompare-helper.php:103
+#, fuzzy
+msgid "Add to Cart"
+msgstr "Pridať do košíka"
+
+#: includes/class-yith-woocompare-helper.php:104
+msgid "Price"
+msgstr "Cena"
+
+#: includes/class-yith-woocompare-helper.php:105
+msgid "Rating"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:106
+msgid "Description"
+msgstr "Popis"
+
+#: includes/class-yith-woocompare-helper.php:107
+msgid "Sku"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:108
+msgid "Availability"
+msgstr "Dostupnosť"
+
+#: includes/class-yith-woocompare-helper.php:109
+msgid "Weight"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:110
+msgid "Dimensions"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:111
+msgid "Repeat price"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:112
+#, fuzzy
+msgid "Repeat Add to Cart"
+msgstr "Pridať do košíka"
+
+#: includes/class-yith-woocompare-table.php:179
+msgid "In stock"
+msgstr "Na sklade"
+
+#: includes/class-yith-woocompare-table.php:279
+#: plugin-options/table-options.php:26 templates/compare.php:29
+msgid "Compare products"
+msgstr "Porovnať produkty"
+
+#: includes/class-yith-woocompare-table.php:380
+#, fuzzy
+msgid "View comparison"
+msgstr "Porovnanie produktov"
+
+#: includes/class-yith-woocompare-table.php:411 templates/compare.php:139
+#: templates/yith-compare-widget-item.php:15
+msgid "Remove"
+msgstr "Odobrať"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:26
+#, fuzzy
+msgid "The widget shows the list of products added to the comparison table."
+msgstr "Wiget ukazuje zoznam produktov pridaných do porovnávacej tabuľky."
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:32
+#: widgets/class.yith-woocompare-widget.php:27
+msgid "YITH WooCommerce Compare Widget"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:129
+msgid "Hide if the comparison table is empty"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:28
+#, fuzzy
+msgid ""
+"The widget displays a counter of products added to the comparison table."
+msgstr "Wiget ukazuje zoznam produktov pridaných do porovnávacej tabuľky."
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:93
+msgid "Number and text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:94
+msgid "Only number"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:101
+msgid "Show counter icon"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:106
+msgid "Icon URL"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:112
+msgid "Counter text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:116
+msgid "Use {{count}} as a placeholder for the product counter."
+msgstr ""
+
+#: init.php:82
+msgid ""
+"YITH WooCommerce Compare is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:96
+msgid ""
+"You can't activate the free version of YITH WooCommerce Compare while you "
+"are using the premium one."
+msgstr ""
+
+#: plugin-options/general-options.php:18
+#, fuzzy
+msgid "\"Compare\" button"
+msgstr "Porovnať produkty"
+
+#: plugin-options/general-options.php:24
+#, fuzzy
+msgid "Compare style"
+msgstr "Porovnať"
+
+#: plugin-options/general-options.php:25
+#, fuzzy
+msgid "Choose if you want to use a link or a button for the compare anchor."
+msgstr "Vyberte si či chcete ku vyvolaniu akcie používať odkaz alebo tlačidlo."
+
+#: plugin-options/general-options.php:31
+msgid "Button"
+msgstr "Tlačidlo"
+
+#: plugin-options/general-options.php:32
+msgid "Textual link"
+msgstr ""
+
+#: plugin-options/general-options.php:33
+msgid "Checkbox"
+msgstr ""
+
+#: plugin-options/general-options.php:37
+#, fuzzy
+msgid "Link/Button label"
+msgstr "Odkaz/Text tlačidla"
+
+#: plugin-options/general-options.php:38
+#, fuzzy
+msgid "Label to use in the compare anchor."
+msgstr "Neboli vybrané produkty do porovnávacej tabuľky."
+
+#: plugin-options/general-options.php:45
+msgid "Show compare in:"
+msgstr ""
+
+#: plugin-options/general-options.php:51
+msgid "Shop page"
+msgstr ""
+
+#: plugin-options/general-options.php:52
+#, fuzzy
+msgid "Product pages"
+msgstr "Porovnanie produktov"
+
+#: plugin-options/general-options.php:53
+msgid "Both"
+msgstr ""
+
+#: plugin-options/general-options.php:57
+msgid "Show table when:"
+msgstr ""
+
+#: plugin-options/general-options.php:63
+msgid "The user manually clicks on view anchor"
+msgstr ""
+
+#: plugin-options/general-options.php:64
+msgid "The user adds a product to the list"
+msgstr ""
+
+#: plugin-options/table-options.php:17
+#, fuzzy
+msgid "Table options"
+msgstr "Nastavenie tabuľky"
+
+#: plugin-options/table-options.php:23
+msgid "Table title"
+msgstr "Titulok tabuľky"
+
+#: plugin-options/table-options.php:24
+#, fuzzy
+msgid "Type the text for the table title."
+msgstr "Napíšte text pre titulok tabuľky"
+
+#: plugin-options/table-options.php:35
+#, fuzzy
+msgid "Table Content"
+msgstr "Titulok tabuľky"
+
+#: plugin-options/table-options.php:41
+msgid "In comparison table show:"
+msgstr ""
+
+#: plugin-options/table-options.php:42
+#, fuzzy
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (WooCommerce attributes are also included)"
+msgstr ""
+"Vyberte polia na zobrazenie v porovnávacej tabuľke a zoraďte ich pomocou "
+"drag&drop (zahrnuté vo woocommerce atribútoch)"
+
+#: plugin-options/table-options.php:49
+msgid "Image format"
+msgstr ""
+
+#: plugin-options/table-options.php:50
+msgid ""
+"Choose if you want to use original image format, or create a thumbnail with "
+"specified size."
+msgstr ""
+
+#: plugin-options/table-options.php:56
+msgid "Use original format"
+msgstr ""
+
+#: plugin-options/table-options.php:57
+msgid "Use thumbnail"
+msgstr ""
+
+#: plugin-options/table-options.php:61
+msgid "Image size"
+msgstr "Rozmer obrázka"
+
+#. translators: %s stand for the link to a suggest plugin to install.
+#: plugin-options/table-options.php:63
+msgid ""
+"Set image size (in px). After changing these settings you may need to %s."
+msgstr ""
+
+#: plugin-options/table-options.php:63
+msgid "regenerate your thumbnails"
+msgstr ""
+
+#: templates/admin/fields/image-width.php:36
+msgid "Do you want to hard crop the image?"
+msgstr ""
+
+#: templates/compare.php:87
+msgid "Close window [X]"
+msgstr "Zavrieť okno [X]"
+
+#: templates/compare.php:122
+msgid "No products added in the compare table."
+msgstr "Neboli vybrané produkty do porovnávacej tabuľky."
+
+#: templates/yith-compare-preview-bar.php:27
+#, fuzzy
+msgid "Select at least 2 products<br/>to compare"
+msgstr "Nie sú produkty na porovnanie"
+
+#. translators: 1. Number of products in the comparison that exceed 5
+#. previewed.
+#: templates/yith-compare-preview-bar.php:55
+msgid "+%d more"
+msgstr ""
+
+#: templates/yith-compare-table.php:50
+#, fuzzy
+msgid "No products added in the comparison table."
+msgstr "Neboli vybrané produkty do porovnávacej tabuľky."
+
+#: templates/yith-compare-widget.php:39
+#: widgets/class.yith-woocompare-widget.php:54
+msgid "Clear all"
+msgstr "Vyprázdniť všetko"
+
+#: templates/yith-compare-widget.php:53
+msgid "No products to compare"
+msgstr "Nie sú produkty na porovnanie"
+
+#: widgets/class.yith-woocompare-widget.php:23
+msgid "The widget shows the list of products added in the comparison table."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Compare</strong></code> plugin allow you "
+"to compare in a simple and efficient way products on sale in your shop and "
+"analyze their main features in a single table. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop "
+"on <strong>YITH</strong></a>."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:126
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr ""
+
+#: includes/class-yith-woocompare-install.php:75
+#, fuzzy
+msgctxt "page_slug"
+msgid "yith-compare"
+msgstr "Porovnať"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:34
+#, fuzzy
+msgctxt "The widget name"
+msgid "YITH WooCommerce Compare Counter Widget"
+msgstr "YITH Woocommerce Compare Widget"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:91
+msgctxt "The widget counter style"
+msgid "Counter style"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "WooCommerce Compare"
+#~ msgstr "YITH Woocommerce Compare Widget"
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "Compare"
+#~ msgstr "Porovnať"
+
+#~ msgid "Added"
+#~ msgstr "Pridané"
+
+#~ msgid "Link or Button"
+#~ msgstr "Odkaz alebo tlačidlo"
+
+#~ msgid "Link"
+#~ msgstr "Odkaz"
+
+#~ msgid "Type the text to use for the button or the link of the compare."
+#~ msgstr "Zadajte text tlačidla alebo odkazu na porovnanie."
+
+#~ msgid "Show button in single product page"
+#~ msgstr "Zobraziť tlačidlo na produktovej stránke."
+
+#~ msgid "Say if you want to show the button in the single product page."
+#~ msgstr "Rozhodnite sa či chcete zobrazovať tlačidlo na produktovej stránke."
+
+#~ msgid "Show button in products list"
+#~ msgstr "Zobraziť tlačidlo v zozname produktov."
+
+#~ msgid "Say if you want to show the button in the products list."
+#~ msgstr "Rozhodnite sa či chcete zobrazovať tlačidlo v zozname produktov"
+
+#~ msgid "Open automatically lightbox"
+#~ msgstr "Otvoriť lightbox autmaticky."
+
+#~ msgid "Open link after click into \"Compare\" button\"."
+#~ msgstr "Otvoriť odkaz po kliknuťí na \"Porovnať\" tlačidlo\"."
+
+#~ msgid "Fields to show"
+#~ msgstr "Zobraziť polia"
+
+#~ msgid "Set the size for the images"
+#~ msgstr "Nastaviť rozmer pre obrázky"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "em"
+#~ msgstr "em"
+
+#~ msgid "pt"
+#~ msgstr "pt"
+
+#~ msgid "rem"
+#~ msgstr "rem"
+
+#~ msgid "Regular"
+#~ msgstr "Regular"
+
+#~ msgid "Bold"
+#~ msgstr "Bold"
+
+#~ msgid "Extra bold"
+#~ msgstr "Extra bold"
+
+#~ msgid "Italic"
+#~ msgstr "Italic"
+
+#~ msgid "Italic bold"
+#~ msgstr "Italic bold"
+
+#~ msgid "Repeat \"Price\" field at the end of the table"
+#~ msgstr "Opakovať pole \"Cena\" na konci tabuľky"
+
+#~ msgid "Repeat \"Add to cart\" field at the end of the table"
+#~ msgstr "Opakovať pole \"Vložiť do košíka\" na konci tabuľky"
+
+#~ msgid "Select a date"
+#~ msgstr "Vybrať data"
+
+#~ msgid "Hours"
+#~ msgstr "Hodiny"
+
+#~ msgid "Minutes"
+#~ msgstr "Minúty"
+
+#~ msgid "Select a font family"
+#~ msgstr "Vybrať font"
+
+#~ msgid "Click to preview"
+#~ msgstr "Kliknite pre náhľad"

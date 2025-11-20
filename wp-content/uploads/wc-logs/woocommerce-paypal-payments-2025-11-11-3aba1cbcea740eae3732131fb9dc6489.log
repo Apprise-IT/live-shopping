@@ -1,0 +1,116 @@
+2025-11-11T08:14:26+00:00 DEBUG #5370 - [New Request] POST /liveshopping/index.php/wp-json/wc-admin/onboarding/profile
+2025-11-11T08:14:26+00:00 DEBUG #5370 - Webhook lock acquired for 'register'.
+2025-11-11T08:14:26+00:00 DEBUG #5370 - Webhook operation 'register' started.
+2025-11-11T08:14:27+00:00 DEBUG #5370 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T08:14:27+00:00 ERROR #5370 - Failed to delete webhooks: [Error] Not Found
+2025-11-11T08:14:27+00:00 INFO #5370 - Webhooks deleted.
+2025-11-11T08:14:28+00:00 DEBUG #5370 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost\/liveshopping\/index.php\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T08:14:28+00:00 ERROR #5370 - Failed to subscribe webhooks: [Error] Not Found
+2025-11-11T08:14:28+00:00 DEBUG #5370 - Webhook lock released for 'register'.
+2025-11-11T08:21:09+00:00 DEBUG #2688 - [New Request] GET /liveshopping/wp-admin/admin.php
+2025-11-11T08:21:09+00:00 DEBUG #2688 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T08:21:09+00:00 WARNING #2688 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2025-11-11T08:21:17+00:00 DEBUG #7037 - [New Request] GET /liveshopping/index.php/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-11T08:21:17+00:00 DEBUG #7037 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T08:21:49+00:00 DEBUG #6560 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T08:21:49+00:00 INFO #6560 - Generating onboarding URL for: production-express_checkout-
+2025-11-11T08:21:50+00:00 DEBUG #6560 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/localhost\/liveshopping\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiIxNGM4YzI1YWNlYTg3NzFjZGM5N2M5OTE0Yzc2ZmUwNyJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 6baa0883539fa
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2025-11-11T08:21:55+00:00 DEBUG #7372 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T08:21:56+00:00 DEBUG #7372 - Loaded onboarding URL from cache: production-express_checkout-
+2025-11-11T08:21:56+00:00 INFO #7372 - Using cached onboarding URL for: production-express_checkout-
+2025-11-11T08:21:56+00:00 DEBUG #8554 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T08:21:56+00:00 DEBUG #8554 - Loaded onboarding URL from cache: production-express_checkout-
+2025-11-11T08:21:56+00:00 INFO #8554 - Using cached onboarding URL for: production-express_checkout-
+2025-11-11T08:22:14+00:00 DEBUG #9738 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T08:22:14+00:00 DEBUG #9738 - Loaded onboarding URL from cache: production-express_checkout-
+2025-11-11T08:22:14+00:00 INFO #9738 - Using cached onboarding URL for: production-express_checkout-
+2025-11-11T09:56:36+00:00 DEBUG #8181 - [New Request] GET /liveshopping/wp-admin/admin.php
+2025-11-11T09:56:36+00:00 DEBUG #8181 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T09:56:36+00:00 WARNING #8181 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2025-11-11T09:56:47+00:00 DEBUG #4711 - [New Request] GET /liveshopping/index.php/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-11T09:56:47+00:00 DEBUG #4711 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T09:56:55+00:00 DEBUG #8193 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T09:56:55+00:00 DEBUG #8193 - Loaded onboarding URL from cache: production-express_checkout-
+2025-11-11T09:56:55+00:00 INFO #8193 - Using cached onboarding URL for: production-express_checkout-
+2025-11-11T11:04:23+00:00 DEBUG #6539 - [New Request] GET /liveshopping/wp-admin/admin.php
+2025-11-11T11:04:23+00:00 DEBUG #6539 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T11:04:23+00:00 WARNING #6539 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2025-11-11T11:04:34+00:00 DEBUG #4229 - [New Request] GET /liveshopping/index.php/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-11T11:04:34+00:00 DEBUG #4229 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-11T11:04:38+00:00 DEBUG #5025 - [New Request] POST /liveshopping/index.php/wp-json/wc/v3/wc_paypal/login_link
+2025-11-11T11:04:38+00:00 DEBUG #5025 - Loaded onboarding URL from cache: production-express_checkout-
+2025-11-11T11:04:38+00:00 INFO #5025 - Using cached onboarding URL for: production-express_checkout-

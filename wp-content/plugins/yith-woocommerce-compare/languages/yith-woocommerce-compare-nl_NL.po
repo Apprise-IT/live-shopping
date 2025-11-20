@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Compare\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"compare\n"
+"POT-Creation-Date: 2025-04-01 13:58:18+00:00\n"
+"PO-Revision-Date: 2018-11-28 16:33+0100\n"
+"Last-Translator: admin <admin@localhost.local>\n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: "
+"gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Loco-Target-Locale: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:28
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:75
+#: includes/class-yith-woocompare-helper.php:101
+#: includes/widgets/class-yith-woocompare-compare-widget.php:122
+#: includes/widgets/class-yith-woocompare-counter-widget.php:85
+#: widgets/class.yith-woocompare-widget.php:72
+msgid "Title"
+msgstr "Titel"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:29
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:76
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:30
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:77
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:87
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:92
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:97
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:122
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:123
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:164
+msgid "You don't have any shortcodes yet."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:167
+msgid "But don't worry! You can create your first one here."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:169
+msgid "Create a shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:52
+#: includes/admin/class-yith-woocompare-admin.php:196
+msgid "Comparison tables"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:53
+#, fuzzy
+msgid "Comparison table"
+msgstr "Vergelijk"
+
+#: includes/admin/class-yith-woocompare-admin.php:141
+msgid ""
+"It allows you to compare in a simple and efficient way products on sale in "
+"your shop and analyze their main features in a single table."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:191
+#, fuzzy
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: includes/admin/class-yith-woocompare-admin.php:193
+msgid "Set the general behavior of the plugin."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:198
+msgid "Configure the options for the comparison tables displayed in your shop."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:111
+#, fuzzy
+msgid "Added to compare"
+msgstr "Bestellen"
+
+#: includes/class-yith-woocompare-frontend.php:121 templates/compare.php:57
+msgid "Product Comparison"
+msgstr "Product vergelijk"
+
+#: includes/class-yith-woocompare-frontend.php:124
+#: includes/class-yith-woocompare-frontend.php:335
+#: includes/class-yith-woocompare-install.php:84
+#: plugin-options/general-options.php:40 templates/yith-compare-widget.php:51
+#: widgets/class.yith-woocompare-widget.php:55
+msgid "Compare"
+msgstr "Vergelijk"
+
+#: includes/class-yith-woocompare-helper.php:102
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/class-yith-woocompare-helper.php:103
+#, fuzzy
+msgid "Add to Cart"
+msgstr "Bestellen"
+
+#: includes/class-yith-woocompare-helper.php:104
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/class-yith-woocompare-helper.php:105
+msgid "Rating"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:106
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/class-yith-woocompare-helper.php:107
+msgid "Sku"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:108
+msgid "Availability"
+msgstr "Beschikbaarheid"
+
+#: includes/class-yith-woocompare-helper.php:109
+msgid "Weight"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:110
+msgid "Dimensions"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:111
+#, fuzzy
+msgid "Repeat price"
+msgstr "Herhaal \"Prijs\" veld"
+
+#: includes/class-yith-woocompare-helper.php:112
+#, fuzzy
+msgid "Repeat Add to Cart"
+msgstr "Herhaal \"Toevoegen aan mandje\" veld"
+
+#: includes/class-yith-woocompare-table.php:179
+msgid "In stock"
+msgstr "Op voorraad"
+
+#: includes/class-yith-woocompare-table.php:279
+#: plugin-options/table-options.php:26 templates/compare.php:29
+msgid "Compare products"
+msgstr "Vergelijk producten"
+
+#: includes/class-yith-woocompare-table.php:380
+#, fuzzy
+msgid "View comparison"
+msgstr "Product vergelijk"
+
+#: includes/class-yith-woocompare-table.php:411 templates/compare.php:139
+#: templates/yith-compare-widget-item.php:15
+msgid "Remove"
+msgstr "Verwijder"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:26
+#, fuzzy
+msgid "The widget shows the list of products added to the comparison table."
+msgstr "Deze widget toont een lijst met producten in een vergelijkings tabel."
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:32
+#: widgets/class.yith-woocompare-widget.php:27
+msgid "YITH WooCommerce Compare Widget"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:129
+msgid "Hide if the comparison table is empty"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:28
+#, fuzzy
+msgid ""
+"The widget displays a counter of products added to the comparison table."
+msgstr "Deze widget toont een lijst met producten in een vergelijkings tabel."
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:93
+msgid "Number and text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:94
+msgid "Only number"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:101
+msgid "Show counter icon"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:106
+msgid "Icon URL"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:112
+msgid "Counter text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:116
+msgid "Use {{count}} as a placeholder for the product counter."
+msgstr ""
+
+#: init.php:82
+msgid ""
+"YITH WooCommerce Compare is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Compare is ingeschalkeld maar nog niet werkzaam. "
+"WooCommerce is nodig om dit te laten werken."
+
+#: init.php:96
+msgid ""
+"You can't activate the free version of YITH WooCommerce Compare while you "
+"are using the premium one."
+msgstr ""
+"U kunt niet het gratis versie van YITH WooCommerce Compare  gebruiken als u "
+"het premium versie gebruikt."
+
+#: plugin-options/general-options.php:18
+#, fuzzy
+msgid "\"Compare\" button"
+msgstr "Vergelijk producten"
+
+#: plugin-options/general-options.php:24
+#, fuzzy
+msgid "Compare style"
+msgstr "Vergelijk"
+
+#: plugin-options/general-options.php:25
+#, fuzzy
+msgid "Choose if you want to use a link or a button for the compare anchor."
+msgstr "Kies uit button of link als actie button."
+
+#: plugin-options/general-options.php:31
+msgid "Button"
+msgstr "Button"
+
+#: plugin-options/general-options.php:32
+msgid "Textual link"
+msgstr ""
+
+#: plugin-options/general-options.php:33
+msgid "Checkbox"
+msgstr ""
+
+#: plugin-options/general-options.php:37
+#, fuzzy
+msgid "Link/Button label"
+msgstr "Link/Button tekst"
+
+#: plugin-options/general-options.php:38
+#, fuzzy
+msgid "Label to use in the compare anchor."
+msgstr "Geen producten toegevoegd in de vergelijk tabel."
+
+#: plugin-options/general-options.php:45
+msgid "Show compare in:"
+msgstr ""
+
+#: plugin-options/general-options.php:51
+msgid "Shop page"
+msgstr ""
+
+#: plugin-options/general-options.php:52
+#, fuzzy
+msgid "Product pages"
+msgstr "Product vergelijk"
+
+#: plugin-options/general-options.php:53
+msgid "Both"
+msgstr ""
+
+#: plugin-options/general-options.php:57
+msgid "Show table when:"
+msgstr ""
+
+#: plugin-options/general-options.php:63
+msgid "The user manually clicks on view anchor"
+msgstr ""
+
+#: plugin-options/general-options.php:64
+msgid "The user adds a product to the list"
+msgstr ""
+
+#: plugin-options/table-options.php:17
+#, fuzzy
+msgid "Table options"
+msgstr "Tabel instellingen"
+
+#: plugin-options/table-options.php:23
+msgid "Table title"
+msgstr "Tabel titel"
+
+#: plugin-options/table-options.php:24
+#, fuzzy
+msgid "Type the text for the table title."
+msgstr "Typ de tekst om te gebruiken voor de tabel titel"
+
+#: plugin-options/table-options.php:35
+#, fuzzy
+msgid "Table Content"
+msgstr "Tabel titel"
+
+#: plugin-options/table-options.php:41
+msgid "In comparison table show:"
+msgstr ""
+
+#: plugin-options/table-options.php:42
+#, fuzzy
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (WooCommerce attributes are also included)"
+msgstr ""
+"Selecteer de velden die je in de vergelijkings tabel wilt tonen. Sleep ze "
+"met je muis in de gewenste volgorde."
+
+#: plugin-options/table-options.php:49
+msgid "Image format"
+msgstr ""
+
+#: plugin-options/table-options.php:50
+msgid ""
+"Choose if you want to use original image format, or create a thumbnail with "
+"specified size."
+msgstr ""
+
+#: plugin-options/table-options.php:56
+msgid "Use original format"
+msgstr ""
+
+#: plugin-options/table-options.php:57
+msgid "Use thumbnail"
+msgstr ""
+
+#: plugin-options/table-options.php:61
+msgid "Image size"
+msgstr "Afbeelding formaat"
+
+#. translators: %s stand for the link to a suggest plugin to install.
+#: plugin-options/table-options.php:63
+msgid ""
+"Set image size (in px). After changing these settings you may need to %s."
+msgstr ""
+
+#: plugin-options/table-options.php:63
+msgid "regenerate your thumbnails"
+msgstr ""
+
+#: templates/admin/fields/image-width.php:36
+msgid "Do you want to hard crop the image?"
+msgstr "Wilt u een harde crop van de afbeelding?"
+
+#: templates/compare.php:87
+msgid "Close window [X]"
+msgstr "Sluit venster [X]"
+
+#: templates/compare.php:122
+msgid "No products added in the compare table."
+msgstr "Geen producten toegevoegd in de vergelijk tabel."
+
+#: templates/yith-compare-preview-bar.php:27
+#, fuzzy
+msgid "Select at least 2 products<br/>to compare"
+msgstr "Geen producten om te vergelijken"
+
+#. translators: 1. Number of products in the comparison that exceed 5
+#. previewed.
+#: templates/yith-compare-preview-bar.php:55
+msgid "+%d more"
+msgstr ""
+
+#: templates/yith-compare-table.php:50
+#, fuzzy
+msgid "No products added in the comparison table."
+msgstr "Geen producten toegevoegd in de vergelijk tabel."
+
+#: templates/yith-compare-widget.php:39
+#: widgets/class.yith-woocompare-widget.php:54
+msgid "Clear all"
+msgstr "Wis alles"
+
+#: templates/yith-compare-widget.php:53
+msgid "No products to compare"
+msgstr "Geen producten om te vergelijken"
+
+#: widgets/class.yith-woocompare-widget.php:23
+msgid "The widget shows the list of products added in the comparison table."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Compare</strong></code> plugin allow you "
+"to compare in a simple and efficient way products on sale in your shop and "
+"analyze their main features in a single table. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop "
+"on <strong>YITH</strong></a>."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:126
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr ""
+
+#: includes/class-yith-woocompare-install.php:75
+#, fuzzy
+msgctxt "page_slug"
+msgid "yith-compare"
+msgstr "Vergelijk"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:34
+#, fuzzy
+msgctxt "The widget name"
+msgid "YITH WooCommerce Compare Counter Widget"
+msgstr "Een YITH Woocommerce Vergelijk Widget"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:91
+msgctxt "The widget counter style"
+msgid "Counter style"
+msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#~ msgid "Premium Version"
+#~ msgstr "Premium Versie"
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "WooCommerce Compare"
+#~ msgstr "YITH WooCommerce Compare geüpdatet"
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "Compare"
+#~ msgstr "Vergelijk"
+
+#~ msgid "YITH WooCommerce Compare Activated"
+#~ msgstr "YITH WooCommerce Compare Geactiveerd"
+
+#~ msgid ""
+#~ "In the YIT Plugin tab you can find the YITH WooCommerce Compare options. "
+#~ "With this menu, you can access to all the settings of our plugins that "
+#~ "you have activated. YITH WooCommerce Compare is available in an "
+#~ "outstanding PREMIUM version with many new options, <a "
+#~ "href=\"%s\">discover it now</a>."
+#~ msgstr ""
+#~ "In het tabblad YIT Plugin kunt u de YITH WooCommerce Compare opties "
+#~ "vinden. Met dit menu kunt u toegang tot alle instellingen van onze "
+#~ "plugins die je hebt geactiveerd. YITH WooCommerce Compare is beschikbaar "
+#~ "in een uitstekende PREMIUM versie met veel nieuwe mogelijkheden, <a "
+#~ "href=\"%s\">Ontdek het nu</a>."
+
+#~ msgid "YITH WooCommerce Compare Updated"
+#~ msgstr "YITH WooCommerce Compare geüpdatet"
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Compare "
+#~ "under YIT Plugin -> Compare instead of WooCommerce -> Settings -> "
+#~ "Compare, as in the previous version. When one of our plugins is updated, "
+#~ "a new voice will be added to this menu. YITH WooCommerce Compare has been "
+#~ "updated with new available options, <a href=\"%s\">discover the PREMIUM "
+#~ "version.</a>"
+#~ msgstr ""
+#~ "Vanaf nu vind je alle opties van YITH WooCommerce Compare onder YIT "
+#~ "Plugin -> Compare in plaats van WooCommerce -> Instellingen -> Compare, "
+#~ "net als in de vorige versie. Wanneer een van onze plugins wordt "
+#~ "bijgewerkt, zal een nieuwe link worden toegevoegd aan dit menu. YITH "
+#~ "WooCommerce Compare is bijgewerkt met nieuwe beschikbare opties, <a "
+#~ "href=\"%s\"> ontdek het PREMIUM versie. </a>"
+
+#~ msgid "Added"
+#~ msgstr "Toegevoegd"
+
+#~ msgid "Link or Button"
+#~ msgstr "Link of Button"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Type the text to use for the button or the link of the compare."
+#~ msgstr ""
+#~ "Typ hier de tekst om te gebruiken voor de button of  link  van de "
+#~ "vergelijking"
+
+#~ msgid "Show button in single product page"
+#~ msgstr "Toon button op product pagina"
+
+#~ msgid "Say if you want to show the button in the single product page."
+#~ msgstr "Selecteer wanneer je een button op de product pagina wilt tonen."
+
+#~ msgid "Show button in products list"
+#~ msgstr "Toon button op producten overzicht"
+
+#~ msgid "Say if you want to show the button in the products list."
+#~ msgstr ""
+#~ "Selecteer wanneer een button op de productenoverzichts pagina wilt tonen."
+
+#~ msgid "Open automatically lightbox"
+#~ msgstr "Open automatisch in lightbox"
+
+#~ msgid "Open link after click into \"Compare\" button\"."
+#~ msgstr "Open de link direct na aanklikken van \"Vergelijk\" button\"."
+
+#~ msgid "Fields to show"
+#~ msgstr "Velden tonen"
+
+#~ msgid "Repeat the \"Price\" field at the end of the table"
+#~ msgstr "Herhaal het \"Prijs\" veld aan het einde van de tabel"
+
+#~ msgid "Repeat the \"Add to cart\" field at the end of the table"
+#~ msgstr "Herhaal \"Toevoegen aan mandje\" veld aan het einde van de tabel"
+
+#~ msgid "Set the size for the images"
+#~ msgstr "Stel afbeeldings formaat in "
+
+#~ msgid ""
+#~ "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Compare%2$s to "
+#~ "benefit from all features!"
+#~ msgstr ""
+#~ "Upgrade naar %1$spremium version%2$s van %1$sYITH WooCommerce Compare%2$s "
+#~ "om te profiteren van alle functies!"
+
+#~ msgid "UPGRADE"
+#~ msgstr "UPGRADE"
+
+#~ msgid "to the premium version"
+#~ msgstr "naar het premium versie"
+
+#~ msgid "Premium Features"
+#~ msgstr "Premium Functies"
+
+#~ msgid "A DEDICATED PAGE"
+#~ msgstr "EEN SPECIALE PAGINA"
+
+#~ msgid ""
+#~ "Don't you want to compare your products in a modal window anymore?"
+#~ "%3$sWith the premium version of %1$sYITH WooCommerce Compare%2$s, a new "
+#~ "page will be created automatically in your site and, adding it among the "
+#~ "menu entries, you will be able to give to your users the chance to access "
+#~ "it easily whenever they want."
+#~ msgstr ""
+#~ "Wilt dat uw producten niet meer te vergelijken in een gewoon venster?"
+#~ "%3$sWith the premium version of %1$sYITH WooCommerce Compare%2$s, een "
+#~ "nieuwe pagina zal automatisch worden aangemaakt op uw website en met de "
+#~ "toevoeging tussen de menu-items, is het mogelijk om je gebruikers de kans "
+#~ "te geven om makkelijk toegang te geven wanneer ze maar willen. "
+
+#~ msgid "CATEGORY COMPARATION"
+#~ msgstr "CATEGORIE VERGELIJKING"
+
+#~ msgid ""
+#~ "People are often confused by finding products of different categories in "
+#~ "the comparison table, creating difficulties in comparing the products "
+#~ "they are interested into.The %1$s\"Compare by category\"%2$s option "
+#~ "exists for this need: you will be able to separate the products in the "
+#~ "table by category affinity."
+#~ msgstr ""
+#~ "Mensen worden vaak verward bij het vinden van producten in verschillende "
+#~ "categorieën in de vergelijkingstabel.het creëren van moeilijkheden bij "
+#~ "het vergelijken van de producten waarin ze zijn geïnteresseerd. De "
+#~ "%1$s\"Compare by category\"%2$s optie bestaat voor de behoefte: U hebt de "
+#~ "mogelijkheid om de producten te scheiden in de tabel bij de categorie "
+#~ "affiniteit."
+
+#~ msgid "CATEGORY EXCLUSION "
+#~ msgstr "CATEGORIE UITSLUITEN"
+
+#~ msgid ""
+#~ "In your shop there may be product categories you don't want to be "
+#~ "affected by the plugin features, deleting the comparison button for them. "
+#~ "The premium version of the plugin offers this too.%3$sAnd there's more! "
+#~ "Activating the %1$s\"Reverse exclusion list\"%2$s option, you can also "
+#~ "invert the behavior of the feature, allowing the comparison only to those "
+#~ "products of the selected categories."
+#~ msgstr ""
+#~ "In uw winkel kunnen er productcategorieën zijn die u niet wilt veranderen "
+#~ "door de plug-in functies, het schrappen van de vergelijking knop voor "
+#~ "hen. De premium-versie van de plugin biedt dit ook.%3$sAnd there's more! "
+#~ "Activating the %1$s\"Reverse exclusion list\"%2$s optie, u kunt ook het "
+#~ "gedrag van de functie omkeren, waardoor de vergelijking alleen kan op de "
+#~ "producten van de geselecteerde categorieën."
+
+#~ msgid "TABLE IMAGE"
+#~ msgstr "TABEL AFBEELDING"
+
+#~ msgid ""
+#~ "Give a personal touch to the %1$scomparison table%2$s your users will "
+#~ "see. Select an image, upload it from the option panel and show it ahead "
+#~ "of the table to your users. "
+#~ msgstr ""
+#~ "Geef een persoonlijke touch aan de %1$scomparison table%2$s die u "
+#~ "gebruikers zien. Selecteer een afbeelding, upload het van het optie "
+#~ "paneel en het wordt direct getoond in de tabel van uw gebruikers."
+
+#~ msgid "DYNAMIC FIELDS"
+#~ msgstr "DYNAMISCHE VELDEN"
+
+#~ msgid ""
+#~ "With this precious feature, you will be able to show in the table only "
+#~ "the fields that have information in at least one of the selected products."
+#~ "%3$sActivate the %1$s\"Dynamic Attribute fields\"%2$s option and there "
+#~ "will be no more empty lines in your comparison table."
+#~ msgstr ""
+#~ "Met deze speciale functie is het voor u mogelijk om in de tabel alleen de "
+#~ "velden te tonen die informatie bevat in tenminste een van de "
+#~ "geselecteerde producten.%3$sActivate the %1$s\"Dynamic Attribute "
+#~ "fields\"%2$s optie en er zullen geen legen regels zijn in uw "
+#~ "vergelijkingstabel."
+
+#~ msgid "SOCIAL NETWORK SHARING"
+#~ msgstr "SOCIAAL NETWERK DELEN"
+
+#~ msgid ""
+#~ "One of the most appealing features of the premium version of the "
+#~ "plugin.Four social network sites for your users (Facebook, Twitter, "
+#~ "Google + and Pinterest) and the email system %1$sto share%2$s the "
+#~ "comparison table of the products they have selected."
+#~ msgstr ""
+#~ "Een van de meest aantrekkelijke kenmerken van de premium versie van de "
+#~ "plugin. voor sociale netwerk sites voor uw gebruikers (Facebook, Twitter, "
+#~ "Google + en Pinterest) en het e-mailsysteem %1$sto share%2$s  de "
+#~ "vergelijkstabel van de producten die zij hebben geselecteerd."
+
+#~ msgid "RELATED PRODUCTS"
+#~ msgstr "GERELATEERDE PRODUCTEN"
+
+#~ msgid ""
+#~ "All the products that have common categories and/or tags with those in "
+#~ "the comparison table will be showed in a slider, right under the "
+#~ "comparison table.%3$sA completely %1$s\"touch friendly\"%2$s slider to "
+#~ "encourage your users to discover the shop products of the shop related to "
+#~ "those they are interested into."
+#~ msgstr ""
+#~ "Alle producten die gemeenschappelijk categorieën en / of labels hebben in "
+#~ "de vergelijkende tabel worden getoond in een slider, recht onder de "
+#~ "vergelijkingstabel.%3$sA completely %1$s\"touch friendly\"%2$s slider om "
+#~ "uw gebruikers aan te moedigen de winkel producten van de winkel waar in "
+#~ "ze geïnteresseerd zijn in te ontdekken."
+
+#~ msgid "CUSTOMIZABLE STYLE"
+#~ msgstr "AANPASBARE STIJLEN"
+
+#, fuzzy
+#~ msgid "YITH WooCommerce Compare"
+#~ msgstr "YITH WooCommerce Compare geüpdatet"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "iSortingCols"
+#~ msgstr "Instellingen"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Plugin Documentatie"
+
+#~ msgid ""
+#~ "An advanced option panel that let you change all the colors of the "
+#~ "plugin, so that you can adapt stylistically all its elements to the "
+#~ "%1$slayout%2$s of your shop.We know it, looks also count... and we give "
+#~ "you the right tools to get to the best result."
+#~ msgstr ""
+#~ "Een geavanceerde optie paneel dat je alle kleuren laat veranderen van je "
+#~ "plugin, zo dat je alle stijlen kan aanpassen naar de %1$slayout%2$s van u "
+#~ "winkel. We weten het dat uiterlijk ook telt... en wij geven u de juiste "
+#~ "tools om het beste resultaat te krijgen."

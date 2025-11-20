@@ -1,0 +1,1149 @@
+# Translation of YITH WooCommerce Compare in Spanish (Spain)
+# This file is distributed under the same license as the YITH WooCommerce Compare package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Compare\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"compare-premium\n"
+"POT-Creation-Date: 2025-05-12 10:17:39+00:00\n"
+"PO-Revision-Date: 2025-05-12 09:31:59+0000\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:51
+msgid "Table shortcodes"
+msgstr "Shortcodes de tabla"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:53
+msgid "Create custom comparison tables to show in your shop"
+msgstr "Crea tablas comparativas personalizadas para mostrar en tu tienda"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:56
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:58
+msgid "Customization options"
+msgstr "Opciones de personalización"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:193
+msgid "Create table"
+msgstr "Crear tabla"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:194
+msgid "Update table"
+msgstr "Actualizar tabla"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:195
+msgid "Create shortcode"
+msgstr "Crear shortcode"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:220
+msgid "Compare options"
+msgstr "Opciones de comparación"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:226
+msgid "Show compare on:"
+msgstr "Muestra la comparación en:"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:227
+msgid ""
+"Choose whether to enable the \"Compare\" button for all products or only for "
+"specific product categories."
+msgstr ""
+"Elige si quieres activar el botón «comparar» para todos los productos o solo "
+"para determinadas categorías de productos."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:233
+#: includes/admin/class-yith-woocompare-admin-premium.php:287
+msgid "All products"
+msgstr "Todos los productos"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:234
+msgid "Only products of specific categories"
+msgstr "Solo en productos de categorías específicas"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:244
+msgid "Categories to include"
+msgstr "Categorías a incluir"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:245
+msgid "Choose categories to include in the comparison."
+msgstr "Elige categorías a incluir en la comparación."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:247
+msgid "Search for a category"
+msgstr "Buscar una categoría"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:256
+msgid "Hide button in specific products"
+msgstr "Oculta el botón en productos específicos"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:257
+msgid "Enable to hide the \"Compare\" button in specific products."
+msgstr "Activa para ocultar el botón «comparar» en productos específicos."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:269
+msgid "Products to exclude"
+msgstr "Productos a excluir"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:270
+msgid "Choose products to exclude from comparison."
+msgstr "Elige productos a excluir de la comparación."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:272
+msgid "Search for a product"
+msgstr "Buscar un producto"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:280
+msgid "Allow comparison between"
+msgstr "Permite la comparación entre"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:281
+msgid ""
+"Choose whether to allow comparison between all products or only those in the "
+"same category."
+msgstr ""
+"Elige si quieres permitir la comparación entre todos los productos o solo "
+"entre los de la misma categoría."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:288
+msgid "Products in the same category"
+msgstr "Productos en la misma categoría"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:292
+msgid "Limit product comparison"
+msgstr "Limita la comparación de productos"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:293
+msgid ""
+"Enable to limit the number of products that can be compared (e.g., users can "
+"add up to 5 products to the table)."
+msgstr ""
+"Activa para limitar el número de productos que se pueden comparar (por "
+"ejemplo, los usuarios pueden añadir hasta 5 productos a la tabla)."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:300
+msgid "Max. number of products in comparison"
+msgstr "Número máximo de productos en comparación"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:301
+msgid "Set the maximum number of products in the comparison table."
+msgstr "Establece el número máximo de productos en la tabla comparativa."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:319
+msgid "Link/Button label for products in comparison"
+msgstr "Etiqueta del enlace/botón para productos en comparación"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:320
+msgid ""
+"Label for the compare anchor when the product is already added to the list."
+msgstr ""
+"Etiqueta para el enlace de comparación cuando el producto ya está añadido a "
+"la lista."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:322
+#: includes/class-yith-woocompare-frontend-premium.php:61
+#: includes/class-yith-woocompare-frontend-premium.php:156
+#: includes/class-yith-woocompare-table.php:380
+msgid "View comparison"
+msgstr "Ver comparación"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:329
+msgid "Open comparison table:"
+msgstr "Abre la tabla comparativa:"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:335
+msgid "In overlay"
+msgstr "En superposición"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:336
+msgid "In a page"
+msgstr "En una página"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:340
+msgid "Compare Page"
+msgstr "Página de comparación"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:341
+msgid ""
+"Choose the page you want to set as the default Compare Page. Ensure the page "
+"content includes: <i>[yith_woocompare_table]</i>"
+msgstr ""
+"Elige la página que quieres usar como página de comparación por defecto. "
+"Asegúrate de que el contenido de la página incluye: "
+"<i>[yith_woocompare_table]</i>"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:363
+msgid "The user selects the first product"
+msgstr "El usuario selecciona el primer producto"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:364
+msgid "The user selects a second item"
+msgstr "El usuario selecciona un segundo elemento"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:380
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:52
+#: includes/admin/class-yith-woocompare-admin.php:211
+#, fuzzy
+msgid "Comparison tables"
+msgstr "Tabla comparativa"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:381
+#: includes/admin/class-yith-woocompare-admin.php:213
+msgid "Configure the options for the comparison tables displayed in your shop."
+msgstr ""
+"Configura las opciones de las tablas comparativas mostradas en tu tienda."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:384
+msgid "Social media\t"
+msgstr "Redes sociales\t"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:385
+msgid "Configure the options for sharing the table."
+msgstr "Configura las opciones para compartir la tabla."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:388
+#: includes/class-yith-woocompare-table-premium.php:619
+#: plugin-options/table/related-options.php:51
+msgid "Related products"
+msgstr "Productos relacionados"
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:389
+msgid "Show related products below the comparison table."
+msgstr "Muestra productos relacionados bajo la tabla comparativa."
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:28
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:75
+#: includes/class-yith-woocompare-helper.php:101
+#: includes/widgets/class-yith-woocompare-compare-widget.php:122
+#: includes/widgets/class-yith-woocompare-counter-widget.php:85
+#: plugin-options/table/related-options.php:47
+msgid "Title"
+msgstr "Título"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:29
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:76
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:30
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:77
+msgid "Actions"
+msgstr "Acciones"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:87
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:92
+msgid "Clone"
+msgstr "Clonar"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:97
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:124
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:122
+msgid "Confirm delete"
+msgstr "Confirmar borrar"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:123
+msgid "Are you sure you want to delete this item?"
+msgstr "¿Estás seguro que quieres borrar este elemento?"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:164
+msgid "You don't have any shortcodes yet."
+msgstr "Todavía no tienes ningún shortcode."
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:167
+msgid "But don't worry! You can create your first one here."
+msgstr "Pero, ¡no te preocupes! Puedes crear la primera aquí."
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:169
+msgid "Create a shortcode"
+msgstr "Crea un shortcode"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:53
+msgid "Comparison table"
+msgstr "Tabla comparativa"
+
+#: includes/admin/class-yith-woocompare-admin.php:124
+msgid "Customize the comparison table"
+msgstr "Personaliza la tabla comparativa"
+
+#: includes/admin/class-yith-woocompare-admin.php:125
+msgid ""
+"Customize the table with advanced options: upload an image, replace the \"In "
+"Stock\" and \"Out of Stock\" texts with icons, decide whether to fix the "
+"first column, highlight differences with a background color, and much more."
+msgstr ""
+"Personaliza la tabla con opciones avanzadas: carga una imagen, sustituye los "
+"textos «hay existencias» y «agotado» por iconos, decide si quieres fijar la "
+"primera columna, resalta las diferencias con un color de fondo y mucho más."
+
+#: includes/admin/class-yith-woocompare-admin.php:128
+msgid "Suggest products to compare"
+msgstr "Sugiere productos para comparar"
+
+#: includes/admin/class-yith-woocompare-admin.php:129
+msgid ""
+"Help your customers explore your catalog by showing a recommended products "
+"section below the comparison table. This way, they can add the suggested "
+"products to the comparison with a single click and evaluate their purchase."
+msgstr ""
+"Ayuda a tus clientes a explorar tu catálogo mostrando una sección de "
+"productos recomendados debajo de la tabla comparativa. De esta forma, pueden "
+"añadir los productos sugeridos a la comparativa con un solo clic y evaluar "
+"su compra."
+
+#: includes/admin/class-yith-woocompare-admin.php:132
+msgid "100% mobile-friendly design"
+msgstr "100% compatible con dispositivos móviles"
+
+#: includes/admin/class-yith-woocompare-admin.php:133
+msgid ""
+"The premium version of the plugin includes a new mobile-friendly design "
+"inspired by the features of major e-commerce platforms. A must-have upgrade "
+"to ensure that product comparison works seamlessly for customers shopping on "
+"your store on smartphones or tablets."
+msgstr ""
+"La versión premium del plugin incluye un nuevo diseño compatible con "
+"dispositivos móviles inspirado en las características de las principales "
+"plataformas de comercio electrónico. Una actualización imprescindible para "
+"garantizar que la comparación de productos funcione a la perfección para los "
+"clientes que compran en tu tienda desde smartphones o tablets."
+
+#: includes/admin/class-yith-woocompare-admin.php:136
+msgid "Create custom comparison tables to display on any page of your shop"
+msgstr ""
+"Crea tablas comparativas personalizadas para mostrarlas en cualquier página "
+"de tu tienda"
+
+#: includes/admin/class-yith-woocompare-admin.php:137
+msgid ""
+"Create personalized comparison tables by selecting the products to include "
+"and placing them anywhere on your store using the dedicated shortcode. This "
+"allows you to highlight specific products on your home page or insert "
+"comparison tables within product detail pages to encourage customers to "
+"consider alternative products (just like Amazon)."
+msgstr ""
+"Crea tablas comparativas personalizadas seleccionando los productos que "
+"quieres incluir y colocándolas en cualquier lugar de tu tienda mediante el "
+"shortcode dedicado. Esto te permite destacar productos específicos en tu "
+"página de inicio o insertar tablas comparativas dentro de las páginas de "
+"detalles de los productos para animar a los clientes a considerar productos "
+"alternativos (al igual que Amazon)."
+
+#: includes/admin/class-yith-woocompare-admin.php:156
+msgid ""
+"It allows you to compare in a simple and efficient way products on sale in "
+"your shop and analyze their main features in a single table."
+msgstr ""
+"Te permite comparar de forma sencilla y eficaz los productos a la venta en "
+"tu tienda y analizar sus principales características en una única tabla."
+
+#: includes/admin/class-yith-woocompare-admin.php:206
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: includes/admin/class-yith-woocompare-admin.php:208
+msgid "Set the general behavior of the plugin."
+msgstr "Establece el comportamiento general del plugin."
+
+#: includes/class-yith-woocompare-frontend-premium.php:65
+#: includes/class-yith-woocompare-frontend-premium.php:152
+#: includes/class-yith-woocompare-frontend.php:124
+#: includes/class-yith-woocompare-frontend.php:321
+#: includes/class-yith-woocompare-install.php:84
+#: plugin-options/general-options.php:40 templates/yith-compare-widget.php:51
+msgid "Compare"
+msgstr "Comparar"
+
+#: includes/class-yith-woocompare-frontend.php:111
+msgid "Added to compare"
+msgstr "Añadido para comparar"
+
+#: includes/class-yith-woocompare-frontend.php:121
+#: templates/yith-compare-popup.php:46
+msgid "Product Comparison"
+msgstr "Comparación de productos"
+
+#: includes/class-yith-woocompare-helper.php:102
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/class-yith-woocompare-helper.php:103
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: includes/class-yith-woocompare-helper.php:104
+msgid "Price"
+msgstr "Precio"
+
+#: includes/class-yith-woocompare-helper.php:105
+msgid "Rating"
+msgstr "Valoración"
+
+#: includes/class-yith-woocompare-helper.php:106
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-yith-woocompare-helper.php:107
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-yith-woocompare-helper.php:108
+msgid "Availability"
+msgstr "Disponibilidad"
+
+#: includes/class-yith-woocompare-helper.php:109
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/class-yith-woocompare-helper.php:110
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: includes/class-yith-woocompare-helper.php:111
+msgid "Repeat price"
+msgstr "Repetir precio"
+
+#: includes/class-yith-woocompare-helper.php:112
+msgid "Repeat Add to cart"
+msgstr "Repetir «añadir al carrito»"
+
+#: includes/class-yith-woocompare-table-premium.php:274
+#: includes/class-yith-woocompare-table.php:279
+#: plugin-options/table/content-options.php:65
+#: plugin-options/table-options.php:26
+msgid "Compare products"
+msgstr "Comparador de productos"
+
+#: includes/class-yith-woocompare-table-premium.php:450
+msgid "Share on:"
+msgstr "Compartir en:"
+
+#: includes/class-yith-woocompare-table-premium.php:452
+#: plugin-options/table/share-options.php:71
+msgid "My Compare"
+msgstr "Mi comparación"
+
+#: includes/class-yith-woocompare-table-premium.php:493
+#: plugin-options/table/content-options.php:119
+msgid "Categories to compare"
+msgstr "Categorías para comparar"
+
+#: includes/class-yith-woocompare-table-premium.php:531
+#: plugin-options/table/content-options.php:215
+#: templates/yith-compare-widget.php:39
+msgid "Clear all"
+msgstr "Eliminar todos"
+
+#: includes/class-yith-woocompare-table.php:179
+msgid "In stock"
+msgstr "Hay existencias"
+
+#: includes/class-yith-woocompare-table.php:411
+#: templates/yith-compare-widget-item.php:15
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/integrations/class-yith-woocompare-yith-request-quote-integration.php:44
+msgid "\"Request a quote\" button"
+msgstr "Botón «solicitar un presupuesto»"
+
+#: includes/shortcodes/class-yith-woocompare-counter-shortcode.php:48
+msgid "{{count}} product in compare"
+msgid_plural "{{count}} products in compare"
+msgstr[0] "{{count}} producto en comparación"
+msgstr[1] "{{count}} productos en comparación"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:26
+msgid "The widget shows the list of products added to the comparison table."
+msgstr ""
+"El widget muestra la lista de productos añadidos en la tabla comparativa."
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:32
+msgid "YITH WooCommerce Compare Widget"
+msgstr "YITH WooCommerce Compare - widget"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:129
+msgid "Hide if the comparison table is empty"
+msgstr "Oculta si la tabla comparativa está vacía"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:28
+msgid ""
+"The widget displays a counter of products added to the comparison table."
+msgstr ""
+"El widget muestra un contador de productos añadidos a la tabla comparativa."
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:93
+msgid "Number and text"
+msgstr "Número y texto"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:94
+msgid "Only number"
+msgstr "Solo número"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:101
+msgid "Show counter icon"
+msgstr "Mostrar icono de recuento"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:106
+msgid "Icon URL"
+msgstr "URL del icono"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:112
+msgid "Counter text"
+msgstr "Texto del contador"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:116
+msgid "Use {{count}} as a placeholder for the product counter."
+msgstr "Utiliza {{count}} como marcador de posición del contador de productos."
+
+#: init.php:103
+msgid ""
+"YITH WooCommerce Compare Premium is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Compare Premium está activo pero no es efectivo. Requiere "
+"WooCommerce para funcionar."
+
+#: plugin-options/general-options.php:18 plugin-options/style-options.php:18
+msgid "\"Compare\" button"
+msgstr "Botón «comparar»"
+
+#: plugin-options/general-options.php:24
+msgid "Compare style"
+msgstr "Estilo de «comparar»"
+
+#: plugin-options/general-options.php:25
+msgid "Choose if you want to use a link or a button for the compare anchor."
+msgstr "Elige si quieres usar un enlace o un botón para la comparación."
+
+#: plugin-options/general-options.php:31
+msgid "Button"
+msgstr "Botón"
+
+#: plugin-options/general-options.php:32
+msgid "Textual link"
+msgstr "Enlace textual"
+
+#: plugin-options/general-options.php:33
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: plugin-options/general-options.php:37
+msgid "Link/Button label"
+msgstr "Etiqueta del botón/enlace"
+
+#: plugin-options/general-options.php:38
+msgid "Label to use in the compare anchor."
+msgstr "Etiqueta para utilizar en el enlace de comparación."
+
+#: plugin-options/general-options.php:45
+msgid "Show compare in:"
+msgstr "Muestra el botón «comparar» en:"
+
+#: plugin-options/general-options.php:51
+msgid "Shop page"
+msgstr "Página de la tienda"
+
+#: plugin-options/general-options.php:52
+msgid "Product pages"
+msgstr "Páginas de producto"
+
+#: plugin-options/general-options.php:53
+#: plugin-options/table/content-options.php:54
+#: plugin-options/table/related-options.php:39
+#: plugin-options/table/share-options.php:39
+msgid "Both"
+msgstr "Ambas"
+
+#: plugin-options/general-options.php:57
+msgid "Show table when:"
+msgstr "Muestra la tabla cuando:"
+
+#: plugin-options/general-options.php:63
+msgid "The user manually clicks on view anchor"
+msgstr "El usuario hace clic para ver la comparación"
+
+#: plugin-options/general-options.php:64
+msgid "The user adds a product to the list"
+msgstr "El usuario añade un producto a la lista"
+
+#: plugin-options/style-options.php:24
+msgid "Button colors"
+msgstr "Colores del botón"
+
+#: plugin-options/style-options.php:32
+msgid "Text"
+msgstr "Texto"
+
+#: plugin-options/style-options.php:37
+msgid "Text Hover"
+msgstr "Texto al pasar el cursor"
+
+#: plugin-options/style-options.php:44
+msgid "Background"
+msgstr "Fondo"
+
+#: plugin-options/style-options.php:49
+msgid "Background Hover"
+msgstr "Fondo al pasar el cursor"
+
+#: plugin-options/style-options.php:62
+#: plugin-options/table/content-options.php:20
+#: plugin-options/table-options.php:17
+msgid "Table options"
+msgstr "Opciones de tabla"
+
+#: plugin-options/style-options.php:68
+msgid "Table colors"
+msgstr "Colores de tabla"
+
+#: plugin-options/style-options.php:76
+msgid "Titles"
+msgstr "Títulos"
+
+#: plugin-options/style-options.php:81
+msgid "Accent"
+msgstr "Acento"
+
+#: plugin-options/style-options.php:86
+msgid "Highlight"
+msgstr "Resaltado"
+
+#: plugin-options/style-options.php:93
+msgid "Remove anchor"
+msgstr "Eliminar"
+
+#: plugin-options/style-options.php:98
+msgid "Remove Anchor Hover"
+msgstr "Eliminar al pasar el cursor"
+
+#: plugin-options/style-options.php:105
+msgid "Stars"
+msgstr "Estrellas (valoración)"
+
+#: plugin-options/table/content-options.php:26
+msgid "Show table image"
+msgstr "Muestra imagen de tabla"
+
+#: plugin-options/table/content-options.php:27
+msgid "Enable to show an image or a logo above all the comparison tables."
+msgstr ""
+"Activa para mostrar una imagen o un logotipo sobre las tablas comparativas. "
+
+#: plugin-options/table/content-options.php:34
+msgid "Table image"
+msgstr "Imagen de tabla"
+
+#: plugin-options/table/content-options.php:35
+msgid "Choose an image/logo for the comparison table."
+msgstr "Elige una imagen/logotipo para la tabla comparativa."
+
+#: plugin-options/table/content-options.php:46
+msgid "Show table image in"
+msgstr "Muestra la imagen de tabla en"
+
+#: plugin-options/table/content-options.php:52
+#: plugin-options/table/related-options.php:37
+#: plugin-options/table/share-options.php:37
+msgid "Compare page"
+msgstr "Una página de comparación"
+
+#: plugin-options/table/content-options.php:53
+#: plugin-options/table/related-options.php:38
+#: plugin-options/table/share-options.php:38
+msgid "Compare overlay"
+msgstr "Superposición"
+
+#: plugin-options/table/content-options.php:62
+#: plugin-options/table-options.php:23
+msgid "Table title"
+msgstr "Título de la tabla"
+
+#: plugin-options/table/content-options.php:63
+#: plugin-options/table-options.php:24
+msgid "Enter the text for the table title."
+msgstr "Introduce el texto para el título de la tabla."
+
+#: plugin-options/table/content-options.php:70
+msgid "Table description"
+msgstr "Descripción de la tabla"
+
+#: plugin-options/table/content-options.php:77
+msgid "Fix columns in the table"
+msgstr "Fija columnas en la tabla"
+
+#: plugin-options/table/content-options.php:78
+msgid ""
+"Enable to freeze one or more columns at the start of an horizontally "
+"scrolling table"
+msgstr ""
+"Activa para bloquear una o varias columnas al inicio de una tabla de scroll "
+"horizontal"
+
+#: plugin-options/table/content-options.php:85
+msgid "Number of fixed columns"
+msgstr "Número de columnas fijas"
+
+#: plugin-options/table/content-options.php:86
+msgid "Choose the number of fixed columns in the comparison table."
+msgstr "Elige el número de columnas fijas en la tabla comparativa."
+
+#: plugin-options/table/content-options.php:98
+msgid "Highlight differences"
+msgstr "Resalta las diferencias"
+
+#: plugin-options/table/content-options.php:99
+msgid ""
+"Enable to highlight the differences between products in a comparison table."
+msgstr ""
+"Permite resaltar las diferencias entre productos en una tabla comparativa."
+
+#: plugin-options/table/content-options.php:108
+msgid "Show category filters"
+msgstr "Muestra filtros de categorías"
+
+#: plugin-options/table/content-options.php:109
+msgid "Enable to show category filters above the table."
+msgstr "Activa para mostrar los filtros de categoría sobre la tabla."
+
+#: plugin-options/table/content-options.php:116
+msgid "Category filters title"
+msgstr "Título de los filtros de categoría"
+
+#: plugin-options/table/content-options.php:117
+msgid "Title for the category filters section."
+msgstr "Título para la sección de filtros de categoría."
+
+#: plugin-options/table/content-options.php:134
+#: plugin-options/table-options.php:35
+msgid "Table content"
+msgstr "Tabla de contenido"
+
+#: plugin-options/table/content-options.php:140
+#: plugin-options/table-options.php:41
+msgid "In comparison table show:"
+msgstr "Muestra en la tabla comparativa:"
+
+#: plugin-options/table/content-options.php:141
+#: plugin-options/table-options.php:42
+msgid ""
+"Select the fields to be displayed in the comparison table and arrange them "
+"by dragging and dropping (WooCommerce attributes are also included)."
+msgstr ""
+"Selecciona los campos que se mostrarán en la tabla comparativa y organízalos "
+"arrastrando y soltando (también se incluyen los atributos de WooCommerce)."
+
+#: plugin-options/table/content-options.php:148
+msgid "Dynamic list of attributes"
+msgstr "Lista dinámica de atributos"
+
+#: plugin-options/table/content-options.php:149
+msgid ""
+"Enable to show in the comparison table only the attributes that match the "
+"current product selection."
+msgstr ""
+"Activa para mostrar en la tabla comparativa solo los atributos que coinciden "
+"con la selección de productos actual."
+
+#: plugin-options/table/content-options.php:156
+msgid "Show custom attributes"
+msgstr "Muestra atributos personalizados"
+
+#: plugin-options/table/content-options.php:157
+msgid "Enable to add custom product attributes to the comparison table."
+msgstr ""
+"Activa para añadir atributos de producto personalizados a la tabla "
+"comparativa."
+
+#: plugin-options/table/content-options.php:165
+msgid "Description to show"
+msgstr "Descripción a mostrar"
+
+#: plugin-options/table/content-options.php:170
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: plugin-options/table/content-options.php:171
+msgid "Full description"
+msgstr "Descripción completa"
+
+#: plugin-options/table/content-options.php:175
+#: plugin-options/table-options.php:49
+msgid "Image format"
+msgstr "Formato de imagen"
+
+#: plugin-options/table/content-options.php:176
+#: plugin-options/table-options.php:50
+msgid ""
+"Choose whether you want to use the original image format or create a "
+"thumbnail of a specified size."
+msgstr ""
+"Elige si quieres utilizar el formato de imagen original o crear una "
+"miniatura de un tamaño específico."
+
+#: plugin-options/table/content-options.php:182
+#: plugin-options/table-options.php:56
+msgid "Use original format"
+msgstr "Usar formato original"
+
+#: plugin-options/table/content-options.php:183
+#: plugin-options/table-options.php:57
+msgid "Use thumbnail"
+msgstr "Usar miniatura"
+
+#: plugin-options/table/content-options.php:187
+#: plugin-options/table-options.php:61
+msgid "Image size"
+msgstr "Tamaño de imagen"
+
+#. translators: %s stand for the link to a suggest plugin to install.
+#: plugin-options/table/content-options.php:189
+#: plugin-options/table-options.php:63
+msgid ""
+"Set image size (in px). After changing these settings you may need to %s."
+msgstr ""
+"Establecer el tabaño de imagen (en px). Después de cambiar estos ajustes "
+"podrías necesitar %s."
+
+#: plugin-options/table/content-options.php:189
+#: plugin-options/table-options.php:63
+msgid "regenerate your thumbnails"
+msgstr "regenerar tus miniaturas"
+
+#: plugin-options/table/content-options.php:204
+msgid "Show \"Clear all\" button"
+msgstr "Muestra el botón «limpiar todo»"
+
+#: plugin-options/table/content-options.php:205
+msgid "Enable to show the \"Clear all\" button on comparison table."
+msgstr "Activa para mostrar el botón «limpiar todo» en la tabla comparativa."
+
+#: plugin-options/table/content-options.php:212
+msgid "\"Clear all\" button label"
+msgstr "Etiqueta del botón «limpiar todo»"
+
+#: plugin-options/table/content-options.php:213
+msgid "Enter the label you want to use for the \"Clear all\" button."
+msgstr "Introduce la etiqueta que quieras usar para el botón «limpiar todo»."
+
+#: plugin-options/table/content-options.php:225
+msgid "Replace In Stock/Out of Stock with check and cross icons"
+msgstr ""
+"Sustituye los iconos de hay existencias/agotado con los de verificación y "
+"cruz"
+
+#: plugin-options/table/content-options.php:226
+msgid ""
+"Enable to replace the In stock/Out of stock labels with icons inside the "
+"comparison table."
+msgstr ""
+"Activa para reemplazar las etiquetas de hay existencias/agotado por iconos "
+"dentro de la tabla comparativa."
+
+#: plugin-options/table/related-options.php:17
+msgid "Related product options"
+msgstr "Opciones de productos relacionados"
+
+#: plugin-options/table/related-options.php:23
+msgid "Show related products"
+msgstr "Muestra productos relacionados"
+
+#: plugin-options/table/related-options.php:24
+msgid "Enable to show related products below the table."
+msgstr "Activa para mostrar los productos relacionados bajo la tabla."
+
+#: plugin-options/table/related-options.php:31
+msgid "Show them on"
+msgstr "Muéstralos en"
+
+#: plugin-options/table/related-options.php:48
+msgid "Enter the title for the related section."
+msgstr "Introduce el título para la sección relacionada."
+
+#: plugin-options/table/related-options.php:55
+msgid "Max. number of products to display"
+msgstr "Número máximo de productos a mostrar"
+
+#: plugin-options/table/related-options.php:56
+msgid "Enter the number of related products to display in the related section."
+msgstr ""
+"Introduce el número de productos relacionados a mostrar en la sección "
+"relacionada."
+
+#: plugin-options/table/related-options.php:68
+msgid "Slider options"
+msgstr "Opciones de control deslizante"
+
+#: plugin-options/table/related-options.php:74
+msgid "Show Prev/Next navigation"
+msgstr "Muestra la navegación anterior/siguiente"
+
+#: plugin-options/table/related-options.php:75
+msgid "Enable autoplay"
+msgstr "Activa la reproducción automática"
+
+#: plugin-options/table/share-options.php:17
+msgid "Sharing options"
+msgstr "Opciones de compartir"
+
+#: plugin-options/table/share-options.php:24
+msgid "Allow social media sharing"
+msgstr "Permite compartir en redes sociales"
+
+#: plugin-options/table/share-options.php:25
+msgid ""
+"Enable to show the social media icons and allow the user to share the table."
+msgstr ""
+"Activa para mostrar los iconos de las redes sociales y permitir al usuario "
+"compartir la tabla."
+
+#: plugin-options/table/share-options.php:31
+msgid "Show sharing options on"
+msgstr "Muestra opciones de compartir en"
+
+#: plugin-options/table/share-options.php:48
+msgid "Select social media platforms"
+msgstr "Selecciona la plataforma social"
+
+#: plugin-options/table/share-options.php:53
+#: templates/yith-compare-share.php:39
+msgid "Facebook"
+msgstr "Facebook"
+
+#: plugin-options/table/share-options.php:54
+#: templates/yith-compare-share.php:53
+msgid "X"
+msgstr "X"
+
+#: plugin-options/table/share-options.php:55
+#: templates/yith-compare-share.php:67
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: plugin-options/table/share-options.php:56
+#: templates/yith-compare-share.php:81
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: plugin-options/table/share-options.php:68
+msgid "Title for social media sharing"
+msgstr "Título al compartir en redes sociales"
+
+#: plugin-options/table/share-options.php:80
+msgid "Text for social media sharing"
+msgstr "Texto al compartir en redes sociales"
+
+#. translators: no placeholders.
+#: plugin-options/table/share-options.php:82
+msgid ""
+"It will be used on Facebook, X and Pinterest. Use %compare_url% to show the "
+"URL of your comparison."
+msgstr ""
+"Se utilizará en Facebook, X y Pinterest. Utiliza %compare_url% para mostrar "
+"la URL de tu comparación."
+
+#: plugin-options/table/share-options.php:94
+msgid "Facebook App ID"
+msgstr "ID de la app de Facebook"
+
+#. translators: %s is the link to the Facebook documentation.
+#: plugin-options/table/share-options.php:96
+msgid ""
+"The Facebook App ID is required to share contents. Read more in the official "
+"Facebook <a href=\"%s\">documentation</a>."
+msgstr ""
+"El ID de la app de Facebook es obligatoria para compartir contenido. Lee más "
+"en la <a href=\"%s\">documentación</a> oficial de Facebook."
+
+#: plugin-options/table/share-options.php:107
+msgid "Facebook image"
+msgstr "Imagen de Facebook"
+
+#: plugin-options/table/share-options.php:108
+msgid "Select an image for Facebook sharing."
+msgstr "Selecciona una imagen para compartir en Facebook."
+
+#: templates/admin/fields/image-width.php:36
+msgid "Force crop the image to this thumbnail size."
+msgstr "Fuerza el recorte de la imagen a este tamaño de miniatura."
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:18
+msgid "Shortcode name"
+msgstr "Nombre del shortcode"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:24
+msgid "Select products"
+msgstr "Selecciona productos"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:33
+msgid "Search products"
+msgstr "Buscar productos"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:38
+msgid "Layout"
+msgstr "Diseño"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:43
+msgid "Wide"
+msgstr "Amplio"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:47
+msgid "Compact"
+msgstr "Compacto"
+
+#: templates/admin/yith-woocompare-add-comparison-table-modal.php:53
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/yith-compare-preview-bar.php:27
+msgid "Select at least 2 products<br/>to compare"
+msgstr "Selecciona al menos 2 productos<br/>para comparar"
+
+#. translators: 1. Number of products in the comparison that exceed 5
+#. previewed.
+#: templates/yith-compare-preview-bar.php:55
+msgid "+%d more"
+msgstr "+%d más"
+
+#: templates/yith-compare-share.php:75
+msgid "I wanted you to see this site"
+msgstr "Quería que vieras este sitio"
+
+#: templates/yith-compare-table.php:50
+msgid "No products added in the comparison table."
+msgstr "No hay productos añadidos a la tabla comparativa."
+
+#: templates/yith-compare-widget.php:53
+msgid "No products to compare"
+msgstr "No hay productos que comparar"
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Compare</strong></code> plugin allow you "
+"to compare in a simple and efficient way products on sale in your shop and "
+"analyze their main features in a single table. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop "
+"on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH WooCommerce Compare</strong></code> te permite comparar "
+"de una forma eficiente y sencilla los productos en venta de tu tienda y "
+"analizar las características principales en una tabla. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Obtén más plugins para tu comercio "
+"electrónico en <strong>YITH</strong></a>."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:80
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+"Permite a tus clientes crear listas de productos que quieran y compartirlas "
+"con familiares y amigos."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:92
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid ""
+"Sell gift cards in your shop to increase your earnings and attract new "
+"customers."
+msgstr ""
+"Vende tarjetas regalo en tu tienda para aumentar tus ingresos y atraer a "
+"nuevos clientes."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:104
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Request a "
+"Quote"
+msgid ""
+"Hide prices and/or the \"Add to cart\" button and let your customers request "
+"a custom quote for every product."
+msgstr ""
+"Oculta los precios y/o el botón «añadir al carrito» y permite que tus "
+"clientes soliciten un presupuesto personalizado para cada producto."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:116
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Points and "
+"Rewards"
+msgid ""
+"Loyalize your customers with an effective points-based loyalty program and "
+"instant rewards."
+msgstr ""
+"Fideliza a tus clientes con un eficaz programa de fidelización basado en "
+"puntos y recompensas instantáneas."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:128
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-"
+"Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+"Añade opciones avanzadas de pago o gratuitas a tus páginas de producto "
+"utilizando campos como botones de radio, casillas de verificación, "
+"desplegables, entradas de texto personalizadas, etc."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:140
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing and Discounts"
+msgid ""
+"Increase conversions through dynamic discounts and price rules, and build "
+"powerful and targeted offers."
+msgstr ""
+"Aumenta las conversiones mediante descuentos dinámicos y reglas de precios, "
+"y crea ofertas potentes y específicas."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:152
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My "
+"Account"
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""
+"Personaliza la página Mi cuenta de tus clientes creando secciones "
+"personalizadas con promociones y contenido ad hoc en función de tus "
+"necesidades."
+
+#: includes/admin/class-yith-woocompare-admin-premium.php:164
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin Recover Abandoned Cart"
+msgid ""
+"Contact users who have added products to the cart without completing the "
+"order and try to recover lost sales."
+msgstr ""
+"Ponte en contacto con los usuarios que han añadido productos al carrito sin "
+"completar el pedido e intenta recuperar las ventas perdidas."
+
+#: includes/class-yith-woocompare-frontend.php:126
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/class-yith-woocompare-install.php:75
+msgctxt "page_slug"
+msgid "yith-compare"
+msgstr "yith-compare"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:34
+msgctxt "The widget name"
+msgid "YITH WooCommerce Compare Counter Widget"
+msgstr "YITH WooCommerce Compare Counter - widget"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:91
+msgctxt "The widget counter style"
+msgid "Counter style"
+msgstr "Estilo del contador"

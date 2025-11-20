@@ -1,0 +1,780 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Compare\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"compare\n"
+"POT-Creation-Date: 2025-04-01 13:58:18+00:00\n"
+"PO-Revision-Date: 2018-11-28 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:28
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:75
+#: includes/class-yith-woocompare-helper.php:101
+#: includes/widgets/class-yith-woocompare-compare-widget.php:122
+#: includes/widgets/class-yith-woocompare-counter-widget.php:85
+#: widgets/class.yith-woocompare-widget.php:72
+msgid "Title"
+msgstr "Название"
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:29
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:76
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:30
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:77
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:87
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:92
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:97
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:122
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:123
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:164
+msgid "You don't have any shortcodes yet."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:167
+msgid "But don't worry! You can create your first one here."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes-table.php:169
+msgid "Create a shortcode"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:52
+#: includes/admin/class-yith-woocompare-admin.php:196
+msgid "Comparison tables"
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin-shortcodes.php:53
+#, fuzzy
+msgid "Comparison table"
+msgstr "Сравнить"
+
+#: includes/admin/class-yith-woocompare-admin.php:141
+msgid ""
+"It allows you to compare in a simple and efficient way products on sale in "
+"your shop and analyze their main features in a single table."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:191
+#, fuzzy
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: includes/admin/class-yith-woocompare-admin.php:193
+msgid "Set the general behavior of the plugin."
+msgstr ""
+
+#: includes/admin/class-yith-woocompare-admin.php:198
+msgid "Configure the options for the comparison tables displayed in your shop."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:111
+#, fuzzy
+msgid "Added to compare"
+msgstr "Добавить в корзину"
+
+#: includes/class-yith-woocompare-frontend.php:121 templates/compare.php:57
+msgid "Product Comparison"
+msgstr "Сравнение товаров"
+
+#: includes/class-yith-woocompare-frontend.php:124
+#: includes/class-yith-woocompare-frontend.php:335
+#: includes/class-yith-woocompare-install.php:84
+#: plugin-options/general-options.php:40 templates/yith-compare-widget.php:51
+#: widgets/class.yith-woocompare-widget.php:55
+msgid "Compare"
+msgstr "Сравнить"
+
+#: includes/class-yith-woocompare-helper.php:102
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/class-yith-woocompare-helper.php:103
+#, fuzzy
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: includes/class-yith-woocompare-helper.php:104
+msgid "Price"
+msgstr "Цена"
+
+#: includes/class-yith-woocompare-helper.php:105
+msgid "Rating"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:106
+msgid "Description"
+msgstr "Описание"
+
+#: includes/class-yith-woocompare-helper.php:107
+msgid "Sku"
+msgstr ""
+
+#: includes/class-yith-woocompare-helper.php:108
+msgid "Availability"
+msgstr "Наличие"
+
+#: includes/class-yith-woocompare-helper.php:109
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/class-yith-woocompare-helper.php:110
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: includes/class-yith-woocompare-helper.php:111
+#, fuzzy
+msgid "Repeat price"
+msgstr "Повторить поле «Цена» в конце таблицы"
+
+#: includes/class-yith-woocompare-helper.php:112
+#, fuzzy
+msgid "Repeat Add to Cart"
+msgstr "Повторить поле «Добавить в корзину» в конце таблицы"
+
+#: includes/class-yith-woocompare-table.php:179
+msgid "In stock"
+msgstr "В наличии"
+
+#: includes/class-yith-woocompare-table.php:279
+#: plugin-options/table-options.php:26 templates/compare.php:29
+msgid "Compare products"
+msgstr "Сравнение товаров"
+
+#: includes/class-yith-woocompare-table.php:380
+#, fuzzy
+msgid "View comparison"
+msgstr "Сравнение товаров"
+
+#: includes/class-yith-woocompare-table.php:411 templates/compare.php:139
+#: templates/yith-compare-widget-item.php:15
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:26
+#, fuzzy
+msgid "The widget shows the list of products added to the comparison table."
+msgstr "Виджет отображает список продуктов, добавленных для сравнения."
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:32
+#: widgets/class.yith-woocompare-widget.php:27
+msgid "YITH WooCommerce Compare Widget"
+msgstr "Виджет YITH WooCommerce Compare"
+
+#: includes/widgets/class-yith-woocompare-compare-widget.php:129
+msgid "Hide if the comparison table is empty"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:28
+#, fuzzy
+msgid ""
+"The widget displays a counter of products added to the comparison table."
+msgstr "Виджет отображает список продуктов, добавленных для сравнения."
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:93
+msgid "Number and text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:94
+msgid "Only number"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:101
+msgid "Show counter icon"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:106
+msgid "Icon URL"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:112
+msgid "Counter text"
+msgstr ""
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:116
+msgid "Use {{count}} as a placeholder for the product counter."
+msgstr ""
+
+#: init.php:82
+msgid ""
+"YITH WooCommerce Compare is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Compare включен, но не эффективен. Для работы требуется "
+"WooCommerce."
+
+#: init.php:96
+msgid ""
+"You can't activate the free version of YITH WooCommerce Compare while you "
+"are using the premium one."
+msgstr ""
+"Вы не можете активировать бесплатную версию YITH WooCommerce Compare, в то "
+"время как вы используете премиум-версию."
+
+#: plugin-options/general-options.php:18
+#, fuzzy
+msgid "\"Compare\" button"
+msgstr "Сравнение товаров"
+
+#: plugin-options/general-options.php:24
+#, fuzzy
+msgid "Compare style"
+msgstr "Сравнить"
+
+#: plugin-options/general-options.php:25
+#, fuzzy
+msgid "Choose if you want to use a link or a button for the compare anchor."
+msgstr ""
+"Выберите, если хотите использовать ссылку или кнопку для действия сравнения."
+
+#: plugin-options/general-options.php:31
+msgid "Button"
+msgstr "Кнопка"
+
+#: plugin-options/general-options.php:32
+msgid "Textual link"
+msgstr ""
+
+#: plugin-options/general-options.php:33
+msgid "Checkbox"
+msgstr ""
+
+#: plugin-options/general-options.php:37
+#, fuzzy
+msgid "Link/Button label"
+msgstr "Текст ссылки или кнопки"
+
+#: plugin-options/general-options.php:38
+#, fuzzy
+msgid "Label to use in the compare anchor."
+msgstr "Нет товаров для сравнения."
+
+#: plugin-options/general-options.php:45
+msgid "Show compare in:"
+msgstr ""
+
+#: plugin-options/general-options.php:51
+msgid "Shop page"
+msgstr ""
+
+#: plugin-options/general-options.php:52
+#, fuzzy
+msgid "Product pages"
+msgstr "Сравнение товаров"
+
+#: plugin-options/general-options.php:53
+msgid "Both"
+msgstr ""
+
+#: plugin-options/general-options.php:57
+msgid "Show table when:"
+msgstr ""
+
+#: plugin-options/general-options.php:63
+msgid "The user manually clicks on view anchor"
+msgstr ""
+
+#: plugin-options/general-options.php:64
+msgid "The user adds a product to the list"
+msgstr ""
+
+#: plugin-options/table-options.php:17
+#, fuzzy
+msgid "Table options"
+msgstr "Настройки таблицы"
+
+#: plugin-options/table-options.php:23
+msgid "Table title"
+msgstr "Название таблицы"
+
+#: plugin-options/table-options.php:24
+#, fuzzy
+msgid "Type the text for the table title."
+msgstr "Введите текст названия таблицы."
+
+#: plugin-options/table-options.php:35
+#, fuzzy
+msgid "Table Content"
+msgstr "Название таблицы"
+
+#: plugin-options/table-options.php:41
+msgid "In comparison table show:"
+msgstr ""
+
+#: plugin-options/table-options.php:42
+#, fuzzy
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (WooCommerce attributes are also included)"
+msgstr ""
+"Выберите поля, которые будут отображаться в таблице сравнения, и расставьте "
+"их путем перетаскивания (включены также атрибуты woocommerce)"
+
+#: plugin-options/table-options.php:49
+msgid "Image format"
+msgstr ""
+
+#: plugin-options/table-options.php:50
+msgid ""
+"Choose if you want to use original image format, or create a thumbnail with "
+"specified size."
+msgstr ""
+
+#: plugin-options/table-options.php:56
+msgid "Use original format"
+msgstr ""
+
+#: plugin-options/table-options.php:57
+msgid "Use thumbnail"
+msgstr ""
+
+#: plugin-options/table-options.php:61
+msgid "Image size"
+msgstr "Размер изображения"
+
+#. translators: %s stand for the link to a suggest plugin to install.
+#: plugin-options/table-options.php:63
+msgid ""
+"Set image size (in px). After changing these settings you may need to %s."
+msgstr ""
+
+#: plugin-options/table-options.php:63
+msgid "regenerate your thumbnails"
+msgstr ""
+
+#: templates/admin/fields/image-width.php:36
+msgid "Do you want to hard crop the image?"
+msgstr "Вы хотите принудительно уменьшить изображение?"
+
+#: templates/compare.php:87
+msgid "Close window [X]"
+msgstr "Закрыть окно [X]"
+
+#: templates/compare.php:122
+msgid "No products added in the compare table."
+msgstr "Нет товаров для сравнения."
+
+#: templates/yith-compare-preview-bar.php:27
+#, fuzzy
+msgid "Select at least 2 products<br/>to compare"
+msgstr "Нет товаров для сравнения"
+
+#. translators: 1. Number of products in the comparison that exceed 5
+#. previewed.
+#: templates/yith-compare-preview-bar.php:55
+msgid "+%d more"
+msgstr ""
+
+#: templates/yith-compare-table.php:50
+#, fuzzy
+msgid "No products added in the comparison table."
+msgstr "Нет товаров для сравнения."
+
+#: templates/yith-compare-widget.php:39
+#: widgets/class.yith-woocompare-widget.php:54
+msgid "Clear all"
+msgstr "Очистить"
+
+#: templates/yith-compare-widget.php:53
+msgid "No products to compare"
+msgstr "Нет товаров для сравнения"
+
+#: widgets/class.yith-woocompare-widget.php:23
+msgid "The widget shows the list of products added in the comparison table."
+msgstr "Виджет отображает список продуктов, добавленных для сравнения."
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Compare</strong></code> plugin allow you "
+"to compare in a simple and efficient way products on sale in your shop and "
+"analyze their main features in a single table. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop "
+"on <strong>YITH</strong></a>."
+msgstr ""
+
+#: includes/class-yith-woocompare-frontend.php:126
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr ""
+
+#: includes/class-yith-woocompare-install.php:75
+#, fuzzy
+msgctxt "page_slug"
+msgid "yith-compare"
+msgstr "Сравнить"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:34
+#, fuzzy
+msgctxt "The widget name"
+msgid "YITH WooCommerce Compare Counter Widget"
+msgstr "Виджет YITH WooCommerce Compare"
+
+#: includes/widgets/class-yith-woocompare-counter-widget.php:91
+msgctxt "The widget counter style"
+msgid "Counter style"
+msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Premium Version"
+#~ msgstr "Премиум версия"
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "WooCommerce Compare"
+#~ msgstr "Виджет YITH WooCommerce Compare"
+
+#, fuzzy
+#~ msgctxt "Admin Plugin Name"
+#~ msgid "Compare"
+#~ msgstr "Сравнить"
+
+#~ msgid "YITH WooCommerce Compare Activated"
+#~ msgstr "Активировать YITH WooCommerce Compare"
+
+#~ msgid ""
+#~ "In the YIT Plugin tab you can find the YITH WooCommerce Compare options. "
+#~ "With this menu, you can access to all the settings of our plugins that "
+#~ "you have activated. YITH WooCommerce Compare is available in an "
+#~ "outstanding PREMIUM version with many new options, <a "
+#~ "href=\"%s\">discover it now</a>."
+#~ msgstr ""
+#~ "На вкладке YIT Plugin tab вы можете найти варианты сравнения YITH "
+#~ "WooCommerce. С помощью этого меню вы можете получить доступ ко всем "
+#~ "настройкам наших плагинов, которые вы активировали. YITH WooCommerce "
+#~ "Compare доступен в бесплатной версии и PREMIUM версии со множеством новых "
+#~ "опций, <a href=«%s»>discover it now</a>."
+
+#~ msgid "YITH WooCommerce Compare Updated"
+#~ msgstr "Обновить YITH WooCommerce Compare"
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Compare "
+#~ "under YIT Plugin -> Compare instead of WooCommerce -> Settings -> "
+#~ "Compare, as in the previous version. When one of our plugins is updated, "
+#~ "a new voice will be added to this menu. YITH WooCommerce Compare has been "
+#~ "updated with new available options, <a href=\"%s\">discover the PREMIUM "
+#~ "version.</a>"
+#~ msgstr ""
+#~ "С этого момента вы можете найти все варианты YITH WooCommerce Compare во "
+#~ "вкладке YIT Plugin -> Compare вместо WooCommerce -> Настройки -> "
+#~ "Сравнить, как в предыдущей версии. Когда один из наших плагинов будет "
+#~ "обновлен, в это меню будет добавлена новая вкладка. YITH WooCommerce "
+#~ "Compare был обновлен новыми доступными вариантами, <a href=«%s»>discover "
+#~ "the PREMIUM version.</a>"
+
+#~ msgid "Added"
+#~ msgstr "Добавлено"
+
+#~ msgid "Link or Button"
+#~ msgstr "Ссылка или Кнопка"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Type the text to use for the button or the link of the compare."
+#~ msgstr ""
+#~ "Введите текст, который будет использоваться для кнопки или ссылки "
+#~ "сравнения."
+
+#~ msgid "Show button in single product page"
+#~ msgstr "Показывать кнопку на странице товара"
+
+#~ msgid "Say if you want to show the button in the single product page."
+#~ msgstr "Отметьте, если хотите показывать кнопку на странице товара."
+
+#~ msgid "Show button in products list"
+#~ msgstr "Показывать кнопку в каталоге товаров"
+
+#~ msgid "Say if you want to show the button in the products list."
+#~ msgstr "Отметьте, если вы хотите показывать кнопку в каталоге товаров."
+
+#~ msgid "Open automatically lightbox"
+#~ msgstr "Автоматическое открытие всплывающего окна"
+
+#~ msgid "Open link after click into \"Compare\" button\"."
+#~ msgstr "Открыть ссылку после нажатия на кнопку «Сравнить»."
+
+#~ msgid "Fields to show"
+#~ msgstr "Поля для показа"
+
+#~ msgid "Repeat the \"Price\" field at the end of the table"
+#~ msgstr "Повторить поле «Цена» в конце таблицы"
+
+#~ msgid "Repeat the \"Add to cart\" field at the end of the table"
+#~ msgstr "Повторить поле «Добавить в корзину» в конце таблицы"
+
+#~ msgid "Set the size for the images"
+#~ msgstr "Задайте размер для изображений"
+
+#~ msgid ""
+#~ "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Compare%2$s to "
+#~ "benefit from all features!"
+#~ msgstr ""
+#~ "Воспользуйтесь %1$spremium version%2$s  %1$sYITH WooCommerce Compare%2$s, "
+#~ "чтобы воспользоваться всеми функциями!"
+
+#~ msgid "UPGRADE"
+#~ msgstr "ОБНОВИТЬ"
+
+#~ msgid "to the premium version"
+#~ msgstr "до премиум версии"
+
+#~ msgid "Premium Features"
+#~ msgstr "Премиум-функции"
+
+#~ msgid "A DEDICATED PAGE"
+#~ msgstr "СТРАНИЦА ОПИСАНИЯ"
+
+#~ msgid ""
+#~ "Don't you want to compare your products in a modal window anymore?"
+#~ "%3$sWith the premium version of %1$sYITH WooCommerce Compare%2$s, a new "
+#~ "page will be created automatically in your site and, adding it among the "
+#~ "menu entries, you will be able to give to your users the chance to access "
+#~ "it easily whenever they want."
+#~ msgstr ""
+#~ "Вы не хотите больше сравнивать свои продукты в модальном окне? %3$sС "
+#~ "премиум-версией %1$sYITH WooCommerce Compare%2$s, на вашем сайте "
+#~ "автоматически будет создана новая страница. Добавив ее среди других "
+#~ "страниц, вы сможете дать своим пользователям возможность легко получить "
+#~ "доступ к ней, когда они этого захотят."
+
+#~ msgid "CATEGORY COMPARATION"
+#~ msgstr "СРАВНЕНИЕ КАТЕГОРИЙ"
+
+#~ msgid ""
+#~ "People are often confused by finding products of different categories in "
+#~ "the comparison table, creating difficulties in comparing the products "
+#~ "they are interested into.The %1$s\"Compare by category\"%2$s option "
+#~ "exists for this need: you will be able to separate the products in the "
+#~ "table by category affinity."
+#~ msgstr ""
+#~ "Люди часто путаются, находя в таблице сравнений товары из разных "
+#~ "категорий. Возникают трудности в понимании сравнения. Для этого "
+#~ "существует возможность %1$s«Сравнение по категориям»%2$s, чтобы разделить "
+#~ "товары в таблице по категориям."
+
+#~ msgid "CATEGORY EXCLUSION "
+#~ msgstr "ИСКЛЮЧЕНИЕ КАТЕГОРИЙ "
+
+#~ msgid ""
+#~ "In your shop there may be product categories you don't want to be "
+#~ "affected by the plugin features, deleting the comparison button for them. "
+#~ "The premium version of the plugin offers this too.%3$sAnd there's more! "
+#~ "Activating the %1$s\"Reverse exclusion list\"%2$s option, you can also "
+#~ "invert the behavior of the feature, allowing the comparison only to those "
+#~ "products of the selected categories."
+#~ msgstr ""
+#~ "В вашем магазине могут быть категории продуктов, на которые вы не хотите "
+#~ "распространять функции плагина, удаляя для них кнопку сравнения. Премиум-"
+#~ "версия плагина также дает такую возможность.%3$s И еще больше! "
+#~ "Активируйте %1$s«Реверсивный список исключений»%2$s, вы также сможете "
+#~ "инвертировать поведение функции, позволяя сравнивать только продукты из "
+#~ "выбранных категорий."
+
+#~ msgid "TABLE IMAGE"
+#~ msgstr "ИЗОБРАЖЕНИЕ ТАБЛИЦЫ"
+
+#~ msgid ""
+#~ "Give a personal touch to the %1$scomparison table%2$s your users will "
+#~ "see. Select an image, upload it from the option panel and show it ahead "
+#~ "of the table to your users. "
+#~ msgstr ""
+#~ "Сделайте личный вклад в %1$sтаблицу сравнения%2$s, которую увидят ваши "
+#~ "пользователи. Выберите изображение, загрузите его с панели параметров и "
+#~ "покажите его перед таблицей своим пользователям. "
+
+#~ msgid "DYNAMIC FIELDS"
+#~ msgstr "АКТИВНЫЕ ПОЛЯ"
+
+#~ msgid ""
+#~ "With this precious feature, you will be able to show in the table only "
+#~ "the fields that have information in at least one of the selected products."
+#~ "%3$sActivate the %1$s\"Dynamic Attribute fields\"%2$s option and there "
+#~ "will be no more empty lines in your comparison table."
+#~ msgstr ""
+#~ "С помощью этой замечательной функции вы сможете отображать в таблице "
+#~ "только поля, содержащие информацию, по крайней мере, в одном из выбранных "
+#~ "продуктов.%3$s Включите %1$s«Активные поля атрибута»%2$s и в таблице "
+#~ "сравнения не будет пустых строк."
+
+#~ msgid "SOCIAL NETWORK SHARING"
+#~ msgstr "ПОДЕЛИТЬСЯ В СОЦИАЛЬНЫХ СЕТЯХ"
+
+#~ msgid ""
+#~ "One of the most appealing features of the premium version of the "
+#~ "plugin.Four social network sites for your users (Facebook, Twitter, "
+#~ "Google + and Pinterest) and the email system %1$sto share%2$s the "
+#~ "comparison table of the products they have selected."
+#~ msgstr ""
+#~ "Одна из самых привлекательных функций премиальной версии плагина. Для "
+#~ "сайтов социальных сетей ваших пользователей (Facebook, Twitter, Google + "
+#~ "и Pinterest) и система электронной почты%1$sподелиться%2$s таблицей "
+#~ "сравнения продуктов, которую ни выбрали."
+
+#~ msgid "RELATED PRODUCTS"
+#~ msgstr "СОПУТСТВУЮЩИЕ ТОВАРЫ"
+
+#~ msgid ""
+#~ "All the products that have common categories and/or tags with those in "
+#~ "the comparison table will be showed in a slider, right under the "
+#~ "comparison table.%3$sA completely %1$s\"touch friendly\"%2$s slider to "
+#~ "encourage your users to discover the shop products of the shop related to "
+#~ "those they are interested into."
+#~ msgstr ""
+#~ "Все товары, которые имеют общие категории и/или теги с товарами в таблице "
+#~ "сравнения, будут показаны в слайдере, прямо под сравнительной таблицей."
+#~ "%3$s Полностью%1$s «удобный для использования» %2$sслайдер, из которого "
+#~ "ваши пользователи узнают о товарах в магазине, связанных с теми, которые "
+#~ "их интересуют."
+
+#~ msgid "CUSTOMIZABLE STYLE"
+#~ msgstr "НАСТРАИВАЕМЫЙ СТИЛЬ"
+
+#~ msgid ""
+#~ "An advanced option panel that let you change all the colors of the "
+#~ "plugin, so that you can adapt stylistically all its elements %1$sto the "
+#~ "layout%2$s of your shop.We know it, looks also count... and we give you "
+#~ "the right tools to get to the best result."
+#~ msgstr ""
+#~ "Расширенная панель параметров, позволяющая вам изменить все цвета "
+#~ "плагина, чтобы вы могли приспособить все свои элементы стилистически "
+#~ "%1$sк макету%2$s вашего магазина. Мы знаем что это важно, присматриваем "
+#~ "за этим … и мы даем вам нужные инструменты для достижения наилучшего "
+#~ "результата."
+
+#~ msgid "CUSTOMIZED ATTRIBUTES"
+#~ msgstr "НАСТРАИВАЕМЫЕ АТРИБУТЫ"
+
+#~ msgid ""
+#~ "Let you users compare products following every feature, and considering "
+#~ "also all those %1$sattributes%2$s that can be manually created in within "
+#~ "the product detail page. Every single detail will be included."
+#~ msgstr ""
+#~ "Позвольте пользователям сравнивать продукты предметно и учитывать также "
+#~ "все %1$sатрибуты%2$s, которые могут быть созданы вручную на странице "
+#~ "сведений о продукте. Каждая деталь будет включена."
+
+#~ msgid "A TAILORED TABLE"
+#~ msgstr "ТАБЛИЦА НА ЗАКАЗ"
+
+#~ msgid ""
+#~ "Select the products you want to compare and the system will offer you the "
+#~ "%1$sshortcode%2$s to generate a comparing table. Simple, rapid and useful."
+#~ msgstr ""
+#~ "Выберите продукты, которые вы хотите сравнить, и система предложит вам "
+#~ "%1$sshortcode%2$s для создания таблицы сравнения. Просто, быстро и "
+#~ "полезно."
+
+#~ msgid ""
+#~ "Thanks to YITH WooCommerce Comapre Widget users could verify at any time "
+#~ "the complete list of products added to the compare tab and avoid to open "
+#~ "the popup to check its existence. "
+#~ msgstr ""
+#~ "Благодаря виджеты YITH WooCommerce Compare, пользователи могут в любой "
+#~ "момент проверить полный список продуктов, добавленных на вкладку "
+#~ "сравнения, и не открывая всплывающее окно, видеть что они сравнивают. "
+
+#, fuzzy
+#~ msgid "YITH WooCommerce Compare"
+#~ msgstr "Виджет YITH WooCommerce Compare"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Документация плагина"
+
+#~ msgid "WIDGET"
+#~ msgstr "ВИДЖЕТ"
+
+#~ msgid "Choose if you want to use a link or a button for the action button."
+#~ msgstr "Выберите, хотите ли вы использовать ссылку или кнопку при нажатии."
+
+#~ msgid "The widget show the list of products added in the compare table."
+#~ msgstr "Виджет отображает список продуктов, добавленных для сравнения."
+
+#~ msgid "YITH Woocommerce Compare Widget"
+#~ msgstr "Виджет YITH WooCommerce Compare"
+
+#~ msgid "Repeat \"Price\" field at the end of the table"
+#~ msgstr "Повторить поле «Цена» в конце таблицы"
+
+#~ msgid "Repeat \"Add to cart\" field at the end of the table"
+#~ msgstr "Повторить поле «Добавить в корзину» в конце таблицы"
+
+#~ msgid "Select a date"
+#~ msgstr "Выберите дату"
+
+#~ msgid "Hours"
+#~ msgstr "Часы"
+
+#~ msgid "Minutes"
+#~ msgstr "Минуты"
+
+#~ msgid "Upload"
+#~ msgstr "Закачать"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "em"
+#~ msgstr "em"
+
+#~ msgid "pt"
+#~ msgstr "pt"
+
+#~ msgid "rem"
+#~ msgstr "rem"
+
+#~ msgid "Select a font family"
+#~ msgstr "Выберите шрифт"
+
+#~ msgid "Regular"
+#~ msgstr "Обычный"
+
+#~ msgid "Bold"
+#~ msgstr "Жирный"
+
+#~ msgid "Extra bold"
+#~ msgstr "Экстра жирный"
+
+#~ msgid "Italic"
+#~ msgstr "Наклонный"
+
+#~ msgid "Italic bold"
+#~ msgstr "Наклонный жирный"
+
+#~ msgid "Click to preview"
+#~ msgstr "Нажмите для просмотра"
